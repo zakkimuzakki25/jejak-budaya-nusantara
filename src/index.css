@@ -1,14 +1,21 @@
-:root {
-  --header-bg-color: #0A2900;
-  --header-text-color: #EFB849;
-  --color-other-white: #F1F5F9;
-  --color-other-black: #333333;
-  --accent-color-main: #FC3903;
-  --accent-color-secondary: #F3CA76;
-  --accent-color-tertiary: #879D80;
-  --bubble-chat-bg-color: #FBEDD1;
-  --footer-bg-color: #D39619;
+@layer base {
+  :root {
+    --header-bg-color: #0a2900;
+    --header-text-color: #efb849;
+    --color-other-white: #f1f5f9;
+    --color-other-black: #333333;
+    --accent-color-main: #fc3903;
+    --accent-color-secondary: #f3ca76;
+    --accent-color-tertiary: #879d80;
+    --bubble-chat-bg-color: #fbedd1;
+    --footer-bg-color: #d39619;
 
-  @import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
-  font-family: 'Stardos Stencil', sans-serif;
+    @import url("https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap");
+    font-family: "Stardos Stencil", sans-serif;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
 }
