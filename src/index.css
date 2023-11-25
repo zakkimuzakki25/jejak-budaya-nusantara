@@ -9,9 +9,6 @@
     --accent-color-tertiary: #879d80;
     --bubble-chat-bg-color: #fbedd1;
     --footer-bg-color: #d39619;
-
-    @import url("https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap");
-    font-family: "Stardos Stencil", sans-serif;
   }
   
   body {

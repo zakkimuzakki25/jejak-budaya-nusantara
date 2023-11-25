@@ -1,5 +1,36 @@
+:root {
+    --header-bg-color: #0a2900;
+    --header-text-color: #efb849;
+    --color-other-white: #f1f5f9;
+    --color-other-black: #333333;
+    --accent-color-main: #fc3903;
+    --accent-color-secondary: #f3ca76;
+    --accent-color-tertiary: #879d80;
+    --bubble-chat-bg-color: #fbedd1;
+    --footer-bg-color: #d39619;
+  }
+
 .container-navbar {
-    width: 100%;
-    height: 120px;
+    width: screen;
+    height: fit-content;
+    display: flex;
+    padding: 30px 50px;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--header-bg-color);
+}
+
+.home-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+.container-navbar button {
+    all: unset;
+}
+
+.container-navbar button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
