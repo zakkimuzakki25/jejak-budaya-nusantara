@@ -1,6 +1,6 @@
-import React from "react";
 import "./Home.css";
 import petaIndonesia from "/src/assets/icon/petaIndonesia.svg";
+import maskot from "/src/assets/maskots/MaskotMain.svg";
 import MainButton from "../../components/button/MainButton";
 
 function Home() {
@@ -8,11 +8,11 @@ function Home() {
   return (
     <div>
       <div className="home">
-        <div className="homeIndonesia">
-          <div>
+        <div className="home-explore">
+          <div className="home-map">
             <img src={petaIndonesia} alt="Peta Indonesia" />
           </div>
-          <div>
+          <div className="home-intro">
             <h1>What is Lorem Ipsum?</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -25,14 +25,13 @@ function Home() {
         </div>
         <MainButton />
       </div>
-      <div className="homeFakta">
-        <div className="fakta">
+      <div className="home-content">
+        <div className="home-interesting-fact">
           <h1>Fakta Menarik</h1>
           <h1>Lihat Semua</h1>
         </div>
-
-        <div></div>
       </div>
+      <img className="home-maskot" src={maskot} alt="maskot" />
     </div>
   );
 }
