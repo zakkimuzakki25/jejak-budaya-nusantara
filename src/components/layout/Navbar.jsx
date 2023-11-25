@@ -6,9 +6,9 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div className="container-navbar">
+    <div className="navbar-container">
       <Link to="/">
-        <img className="home-button" src={home} alt="home button" />
+        <img className="navbar-home-button" src={home} alt="home button" />
       </Link>
       <img src={logo} alt="logo" />
       <button>
