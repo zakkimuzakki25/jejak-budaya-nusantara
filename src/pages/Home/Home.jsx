@@ -1,8 +1,10 @@
 import React from "react";
 import "./Home.css";
 import petaIndonesia from "/src/assets/icon/petaIndonesia.svg";
+import MainButton from "../../components/button/MainButton";
 
 function Home() {
+
   return (
     <div>
       <div className="home">
@@ -21,9 +23,7 @@ function Home() {
             </p>
           </div>
         </div>
-        <div className="homeExploration">
-          <h1>Mulai Explorasi</h1>
-        </div>
+        <MainButton />
       </div>
       <div className="homeFakta">
         <div className="fakta">
