@@ -1,7 +1,7 @@
 import "./Home.css";
 import petaIndonesia from "/src/assets/icon/petaIndonesia.svg";
+import maskot from "/src/assets/maskots/MaskotMain.svg";
 import ExploreButton from "../../components/button/ExploreButton";
-import maskot from "../../assets/maskots/MaskotMain.svg";
 
 function Home() {
 
@@ -12,7 +12,7 @@ function Home() {
           <div className="home-map">
             <img src={petaIndonesia} alt="Peta Indonesia" />
           </div>
-          <div>
+          <div className="home-intro">
             <h1>What is Lorem Ipsum?</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
