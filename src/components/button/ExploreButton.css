@@ -1,0 +1,39 @@
+@import 'src/index.css';
+
+.explore-button-container {
+  position: relative;
+  display: inline-block;
+}
+
+.button-explore-link {
+  display: inline-block;
+  font-family: "Finger Paint", cursive;
+  font-size: 25px;
+  line-height: 50px;
+  padding: 30px 40px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: var(--accent-color-main);
+  color: white;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+}
+
+.sayap-atas,
+.sayap-bawah {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 0;
+}
+
+.sayap-atas {
+  top: -25px;
+  left: -25px;
+}
+
+.sayap-bawah {
+  bottom: -25px;
+  right: -25px;
+}

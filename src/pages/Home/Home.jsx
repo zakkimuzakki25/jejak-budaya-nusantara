@@ -1,18 +1,18 @@
 import React from "react";
 import "./Home.css";
 import petaIndonesia from "/src/assets/icon/petaIndonesia.svg";
-import MainButton from "../../components/button/MainButton";
+import ExploreButton from "../../components/button/ExploreButton";
 
 function Home() {
 
   return (
-    <div>
+    <div >
       <div className="home">
         <div className="homeIndonesia">
           <div>
             <img src={petaIndonesia} alt="Peta Indonesia" />
           </div>
-          <div>
+          <div className="welcome-p">
             <h1>What is Lorem Ipsum?</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -23,7 +23,9 @@ function Home() {
             </p>
           </div>
         </div>
-        <MainButton />
+        <div className="button-explore-section">
+          <ExploreButton />
+        </div>
       </div>
       <div className="homeFakta">
         <div className="fakta">
