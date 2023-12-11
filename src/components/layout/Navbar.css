@@ -14,6 +14,9 @@
     width: screen;
     height: fit-content;
     display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     padding: 30px 50px;
     justify-content: space-between;
     align-items: center;

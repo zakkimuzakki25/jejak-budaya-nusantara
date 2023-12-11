@@ -1,6 +1,17 @@
+:root {
+  --header-bg-color: #0a2900;
+  --header-text-color: #efb849;
+  --color-other-white: #f1f5f9;
+  --color-other-black: #333333;
+  --accent-color-main: #fc3903;
+  --accent-color-secondary: #f3ca76;
+  --accent-color-tertiary: #879d80;
+  --bubble-chat-bg-color: #fbedd1;
+  --footer-bg-color: #d39619;
+}
+
 .home {
-    /* display: flex; */
-    height: 600px;  
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -9,51 +20,60 @@
     background-size: cover;
     background-position-y: -550px;
 }
-
-.button-explore-section {
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-}
-
 .homeIndonesia {
     display: flex;
     flex-direction: row;
     padding: 40px;
-    height: 375px;
+    height: 370px;
     align-items: center;
     gap: 300px; /* Add padding between items */
     background-image: linear-gradient(to bottom, #0A2900, rgba(255, 255, 255, 0));
 }
 
-.homeFakta{
-    padding: 40px 100px 40px 100px;
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    align-items: center;
+.home-map {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-intro {
+  width: 100%;
+  padding: 0px 75px 75px 75px;
+  color: white;
+}
+
+.home-intro h1 {
+  font-family: "Finger Paint";
+  font-size: 32px;
+}
+
+.home-intro p {
+  font-family: "Bree Serif";
+  font-size: 18px;
+}
+
+.home-content {
+  padding: 40px 100px 40px 100px;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
 }
 
 .welcome-p {
     color: white;
 }
 
-.fakta {
-    display: flex;
-    align-items: center;
-    height: 50px;
-    width: 100%;
-  }
-  
-  .fakta h1:first-child {
-    margin-right: auto; /* Mendorong ke pojok kiri */
-  }
-  
-  .fakta h1:last-child {
-    margin-left: auto; /* Mendorong ke pojok kanan */
-  }
-  
-  
-  
+.home-interesting-fact {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
+}
 
-  
+.home-maskot {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
