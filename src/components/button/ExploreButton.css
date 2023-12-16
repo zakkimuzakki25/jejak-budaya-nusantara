@@ -1,8 +1,11 @@
-@import 'src/index.css';
-
 .explore-button-container {
   position: relative;
   display: inline-block;
+  transition: transform 0.5s ease;
+}
+
+.explore-button-container:hover {
+  transform: scale(1.025);
 }
 
 .button-explore-link {
@@ -18,22 +21,69 @@
   text-decoration: none;
   position: relative;
   z-index: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
 }
 
-.sayap-atas,
-.sayap-bawah {
+.sayap-bawah-kiri,
+.sayap-bawah-kanan {
   position: absolute;
-  width: 50px;
-  height: 50px;
   z-index: 0;
+  transition: transform 600ms ease, bottom 600ms ease;
+  transform: rotate(0);
 }
 
-.sayap-atas {
-  top: -25px;
-  left: -25px;
+.sayap-atas-kiri,
+.sayap-atas-kanan {
+  position: absolute;
+  z-index: 0;
+  transition: transform 450ms ease, bottom 450ms ease;
+  transform: rotate(0);
 }
 
-.sayap-bawah {
+/* Transisi sayap saat button dihover */
+.explore-button-container:hover {
+  transform: scale(1.025);
+}
+
+.explore-button-container:hover .sayap-atas-kiri {
+  transform: rotate(-45deg);
+}
+
+.explore-button-container:hover .sayap-bawah-kiri {
+  transform: rotate(-15deg);
   bottom: -25px;
-  right: -25px;
+}
+
+.explore-button-container:hover .sayap-atas-kanan {
+  transform: scaleX(-1) rotate(-45deg);
+}
+
+.explore-button-container:hover .sayap-bawah-kanan {
+  transform: scaleX(-1) rotate(-15deg);
+  bottom: -25px;
+}
+
+.sayap-atas-kiri {
+  top: -65px;
+  left: -90px;
+  rotate: 30deg;
+}
+
+.sayap-bawah-kiri {
+  bottom: -5px;
+  left: -90px;
+  transform: rotate(30deg);
+}
+
+.sayap-atas-kanan {
+  top: -65px;
+  right: -90px;
+  transform: scaleX(-1);
+  rotate: -30deg;
+}
+
+.sayap-bawah-kanan {
+  bottom: -5px;
+  right: -90px;
+  transform: scaleX(-1) rotate(30deg);
 }
