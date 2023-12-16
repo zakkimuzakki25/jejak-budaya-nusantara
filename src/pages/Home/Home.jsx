@@ -1,12 +1,13 @@
 import "./Home.css";
+import React, { useState } from "react";
 import petaIndonesia from "/src/assets/icon/petaIndonesia.svg";
 import maskot from "/src/assets/maskots/MaskotMain.svg";
 import ExploreButton from "../../components/button/ExploreButton";
-
+import HomeSlider from "../../components/slider/HomeSlider";
+import { sliderHome } from "../../data/home";
 function Home() {
-
   return (
-    <div >
+    <div>
       <div className="home">
         <div className="home-explore">
           <div className="home-map">
@@ -31,7 +32,10 @@ function Home() {
         <div className="home-interesting-fact">
           <h1>Fakta Menarik</h1>
           <h1>Lihat Semua</h1>
-        </div>
+        </div>  
+        <div>
+        <HomeSlider data={sliderHome}/>
+      </div>
       </div>
       <img className="home-maskot" src={maskot} alt="maskot" />
     </div>
