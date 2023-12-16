@@ -19,6 +19,7 @@
   min-height: screen;
   background-image: url("/src/assets/background/Home.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position-y: -550px;
 }
 
@@ -97,9 +98,8 @@
 
 .home-content {
   padding: 40px 100px 40px 100px;
-  display: flex;
+  gap : 50px;
   flex-direction: row;
-  height: 50px;
   align-items: center;
 }
 
