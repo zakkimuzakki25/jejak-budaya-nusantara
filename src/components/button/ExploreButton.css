@@ -42,7 +42,7 @@
 
 /* Transisi sayap saat button dihover */
 .explore-button-container:hover {
-  transform: scale(1.025);
+  transform: scale(1.1);
 }
 
 .explore-button-container:hover .sayap-atas-kiri {
