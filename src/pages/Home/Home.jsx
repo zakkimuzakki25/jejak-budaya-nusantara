@@ -33,7 +33,7 @@ function Home() {
           <h1>Fakta Menarik</h1>
           <h1>Lihat Semua</h1>
         </div>  
-        <div>
+        <div className="home-slide-fact">
         <HomeSlider data={sliderHome}/>
       </div>
       </div>

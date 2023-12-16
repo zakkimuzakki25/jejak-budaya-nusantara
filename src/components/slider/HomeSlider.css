@@ -1,3 +1,18 @@
+.container{
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .homeslider{
     position: relative;
     display: flex;
@@ -21,11 +36,9 @@
 .prev-btn,
 .next-btn {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 24px;
-  background-color: #333;
-  color: #fff;
+  font-size: 100px;
+  background-color: transparent;
+  color : black;
   border: none;
   padding: 10px;
   cursor: pointer;

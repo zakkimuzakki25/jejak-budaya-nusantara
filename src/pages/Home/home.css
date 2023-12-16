@@ -98,7 +98,6 @@
 
 .home-content {
   padding: 40px 100px 40px 100px;
-  gap : 50px;
   flex-direction: row;
   align-items: center;
 }
@@ -116,4 +115,12 @@
   position: fixed;
   bottom: 10px;
   right: 10px;
+}
+
+.home-slide-fact{
+  padding: 40px 100px 40px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
