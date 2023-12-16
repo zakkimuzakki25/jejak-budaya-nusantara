@@ -1,0 +1,40 @@
+.laman-adat-kiri {
+  width: 479px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 0px 50px;
+}
+
+.card-adat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 30px;
+  gap: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-family: "Finger Paint";
+  background-color: var(--accent-color-secondary-200);
+  position: relative;
+  z-index: 1;
+}
+
+.huruf-adat {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background-color: white;
+  font-size: 125px;
+  color: #000;
+}
+
+.nama-adat {
+  font-size: 20px;
+  color: #000;
+}
