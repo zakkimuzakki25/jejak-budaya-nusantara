@@ -9,7 +9,7 @@ function ExploreButton() {
       <img className="sayap-atas-kiri" src={sayapAtas} alt="Sayap Atas"/>
       <img className="sayap-bawah-kiri" src={sayapBawah} alt="Sayap Bawah"/>
       <Link
-        to="/tujuan-tautan"
+        to="/exploration"
         className="button-explore-link"
       >
         MULAI EKSPLORASI
