@@ -1,0 +1,17 @@
+.gong-alat-musik {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    right: 80px;
+    transform: translateY(-50%);
+    height: 150px;
+  }
+  
+  .maskot-alat-musik {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+  }
+  

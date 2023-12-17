@@ -1,0 +1,16 @@
+.candi-peninggalan {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+  }
+  
+  .maskot-peninggalan-sejarah {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+  }
+  

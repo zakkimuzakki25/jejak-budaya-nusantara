@@ -1,11 +1,11 @@
-import maskot from '../../../../assets/maskots/MaskotNusantaraMain.svg'
+import maskot from '../../../../assets/maskots/MaskotNusantaraMainSmile2.svg'
 import janurAdat from '../../../../assets/illustration/card/JanurKuning.svg'
 import '../style/NusantaraStyle.css'
 import './UpacaraAdat.css'
 
 function UpacaraAdatCard() {
   return (
-    <div className="laman-adat">
+    <div className="laman-adat-kiri">
       <div className='card-adat-kiri'>
           <div className="huruf-adat">S</div>
           <div className="nama-adat">Upacara Adat</div>

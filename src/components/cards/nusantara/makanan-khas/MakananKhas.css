@@ -1,0 +1,15 @@
+.tumpeng-makanan {
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    right: 70px;
+    transform: translateY(-50%);
+}
+
+.maskot-foodie {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+}

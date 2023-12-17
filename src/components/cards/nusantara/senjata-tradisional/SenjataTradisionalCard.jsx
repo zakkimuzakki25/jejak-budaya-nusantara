@@ -5,7 +5,7 @@ import './SenjataTradisional.css'
 
 function SenjataTradisionalCard() {
   return (
-    <div className="laman-adat">
+    <div className="laman-adat-kanan">
       <div className='card-adat-kanan'>
           <div className="huruf-adat">A</div>
           <div className="nama-adat">Senjata Tradisional</div>

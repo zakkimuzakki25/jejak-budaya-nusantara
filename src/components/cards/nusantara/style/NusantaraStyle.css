@@ -1,9 +1,19 @@
-.laman-adat {
+.laman-adat-kanan {
   width: 479px;
   display: flex;
   position: relative;
   justify-content: center;
   padding: 0px 50px;
+  background: radial-gradient(circle, rgba(38, 78, 26, 1) , rgba(255, 255, 255, 0) 65%);
+}
+
+.laman-adat-kiri {
+  width: 479px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 0px 50px;
+  background: radial-gradient(circle, rgba(235, 167, 28, 1) , rgba(255, 255, 255, 0) 65%);
 }
 
 .card-adat-kiri {

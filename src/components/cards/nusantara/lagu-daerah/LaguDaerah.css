@@ -1,0 +1,15 @@
+.melody-musician {
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    right: 118px;
+    transform: translateY(-50%);
+}
+
+.maskot-musician {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+}

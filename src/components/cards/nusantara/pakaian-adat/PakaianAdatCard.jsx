@@ -6,7 +6,7 @@ import './PakaianAdat.css'
 
 function PakaianAdatCard() {
   return (
-    <div className="laman-adat">
+    <div className="laman-adat-kanan">
       <div className='card-adat-kanan'>
           <div className="huruf-adat">U</div>
           <div className="nama-adat">Pakaian Adat</div>
