@@ -7,7 +7,7 @@ import HomeSlider from "../../components/slider/HomeSlider";
 import { sliderHome } from "../../data/home";
 function Home() {
   return (
-    <div>
+    <div >
       <div className="home">
         <div className="home-explore">
           <div className="home-map">

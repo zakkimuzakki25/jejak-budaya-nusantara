@@ -5,8 +5,8 @@ import './RumahAdat.css'
 
 function RumahAdatCard() {
   return (
-    <div className="laman-adat-kiri">
-      <div className='card-adat'>
+    <div className="laman-adat">
+      <div className='card-adat-kiri'>
           <div className="huruf-adat">N</div>
           <div className="nama-adat">Rumah Adat</div>
       </div>

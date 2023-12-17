@@ -3,9 +3,15 @@
   --header-text-color: #efb849;
   --color-other-white: #f1f5f9;
   --color-other-black: #333333;
+  --color-primary-50: #9FB099;
+  --color-primary-100: #879D80;
+  --color-primary-800: #0A2900;
   --accent-color-main: #fc3903;
   --accent-color-secondary: #f3ca76;
   --accent-color-secondary-200: #F3CA76;
+  --accent-color-secondary-300: #EFB849;
+  --accent-color-secondary-400: #EBA71C;
+  --accent-color-secondary-500: #D39619 ;
   --accent-color-tertiary: #879d80;
   --bubble-chat-bg-color: #fbedd1;
   --footer-bg-color: #d39619;

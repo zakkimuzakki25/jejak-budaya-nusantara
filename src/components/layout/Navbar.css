@@ -21,6 +21,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--header-bg-color);
+    z-index: 100;
 }
 
 .navbar-home-button:hover {

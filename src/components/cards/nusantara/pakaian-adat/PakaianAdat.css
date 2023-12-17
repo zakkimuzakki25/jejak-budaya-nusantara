@@ -1,0 +1,23 @@
+.topi-adat {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 130px;
+    transform: translateY(-50%);
+}
+
+.pakaian-adat {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    right: 90px;
+    transform: translateY(-50%);
+}
+
+.maskot-pakaian-adat {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+}
