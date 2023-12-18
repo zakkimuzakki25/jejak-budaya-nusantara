@@ -1,7 +1,7 @@
 .topi-adat {
     position: absolute;
     z-index: 1;
-    top: 0;
+    top: 18%;
     right: 130px;
     transform: translateY(-50%);
 }

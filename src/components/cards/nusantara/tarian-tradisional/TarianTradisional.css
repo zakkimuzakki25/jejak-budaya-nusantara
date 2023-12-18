@@ -1,7 +1,7 @@
 .topeng-tarian {
     position: absolute;
     z-index: 1;
-    top: 20%;
+    top: 25%;
     right: 105px;
     transform: translateY(-50%);
 }
@@ -9,9 +9,8 @@
 .kuda-lumping {
     position: absolute;
     z-index: 0;
-    bottom: -60%;
+    bottom: 8%;
     right: 60px;
-    transform: translateY(-50%);
 }
 
 .maskot-tarian-tradisional {

@@ -9,6 +9,7 @@
     display : flex;
     flex-direction: row;
     width: 100%;
+    border-bottom: 1px solid #000000;
   }
   
   .content-nusantara .title {
@@ -34,3 +35,28 @@
     font-size: 18px;
     font-family: "Finger Paint";
   }
+
+  /* Nusantara Atas */
+
+.nusantara-container {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-nusantara-letter {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000000;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: "Finger Paint";
+  cursor: pointer;
+}
