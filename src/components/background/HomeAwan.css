@@ -55,6 +55,7 @@
   transform: scaleX(-1);
   animation: moveSlightly 5s ease-in-out infinite alternate;
 }
+
 @keyframes moveSlightly {
   0%,
   100% {

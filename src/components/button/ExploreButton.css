@@ -47,33 +47,39 @@
 }
 
 .explore-button-container:hover .sayap-atas-kiri {
-  transform: rotate(-45deg);
+  animation: none;
+  animation: moveSlightlyWingsLeftTopHover 0.5s ease-in-out forwards;
 }
 
 .explore-button-container:hover .sayap-bawah-kiri {
-  transform: rotate(-15deg);
-  bottom: -25px;
+  animation: none;
+  animation: moveSlightlyWingsLeftBottomHover 0.5s ease-in-out forwards;
+  bottom: -10px;
 }
 
 .explore-button-container:hover .sayap-atas-kanan {
-  transform: scaleX(-1) rotate(-45deg);
+  animation: none;
+  animation: moveSlightlyWingsRightTopHover 0.5s ease-in-out forwards;
 }
 
 .explore-button-container:hover .sayap-bawah-kanan {
-  transform: scaleX(-1) rotate(-15deg);
-  bottom: -25px;
+  animation: none;
+  animation: moveSlightlyWingsRightBottomHover 0.5s ease-in-out forwards;
+  bottom: -10px;
 }
 
 .sayap-atas-kiri {
   top: -65px;
   left: -90px;
   rotate: 30deg;
+  animation: moveSlightlyWingsLeft 3s ease-in-out infinite alternate;
 }
 
 .sayap-bawah-kiri {
   bottom: -5px;
   left: -90px;
   transform: rotate(30deg);
+  animation: moveSlightlyWingsLeft 3s ease-in-out infinite alternate;
 }
 
 .sayap-atas-kanan {
@@ -81,10 +87,66 @@
   right: -90px;
   transform: scaleX(-1);
   rotate: -30deg;
+  animation: moveSlightlyWingsRight 3s ease-in-out infinite alternate;
 }
 
 .sayap-bawah-kanan {
   bottom: -5px;
   right: -90px;
   transform: scaleX(-1) rotate(30deg);
+  animation: moveSlightlyWingsRight 3s ease-in-out infinite alternate;
+}
+
+@keyframes moveSlightlyWingsLeft {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes moveSlightlyWingsRight {
+  0%, 100% {
+    transform: scaleX(-1) rotate(0);
+  }
+  50% {
+    transform: scaleX(-1) rotate(15deg);
+  }
+}
+
+@keyframes moveSlightlyWingsLeftTopHover {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes moveSlightlyWingsRightTopHover {
+  0% {
+    transform: scaleX(-1) rotate(0);
+  }
+  100% {
+    transform: scaleX(-1) rotate(-45deg);
+  }
+}
+
+@keyframes moveSlightlyWingsLeftBottomHover {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+
+@keyframes moveSlightlyWingsRightBottomHover {
+  0% {
+    transform: scaleX(-1) rotate(0);
+  }
+  100% {
+    transform: scaleX(-1) rotate(-15deg);
+  }
 }
