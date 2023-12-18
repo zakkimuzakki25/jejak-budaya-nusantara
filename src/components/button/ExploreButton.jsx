@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import sayapAtas from '../../assets/main-button/SayapAtas.svg';
 import sayapBawah from '../../assets/main-button/SayapBawah.svg';
-import './ExploreButton.css'; 
+import './ExploreButton.css';
 
 function ExploreButton() {
   return (
