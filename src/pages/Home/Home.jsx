@@ -4,10 +4,12 @@ import petaIndonesia from "/src/assets/icon/petaIndonesia.svg";
 import maskot from "/src/assets/maskots/MaskotMain.svg";
 import ExploreButton from "../../components/button/ExploreButton";
 import HomeSlider from "../../components/slider/HomeSlider";
+import HomeAwan from "../../components/background/HomeAwan";
 import { sliderHome } from "../../data/home";
+
 function Home() {
   return (
-    <div >
+    <div>
       <div className="home">
         <div className="home-explore">
           <div className="home-map">
@@ -28,14 +30,17 @@ function Home() {
           <ExploreButton />
         </div>
       </div>
-      <div className="home-content">
-        <div className="home-interesting-fact">
-          <h1>Fakta Menarik</h1>
-          <h1>Lihat Semua</h1>
-        </div>  
-        <div className="home-slide-fact">
-        <HomeSlider data={sliderHome}/>
-      </div>
+      <div  className="home-awan">
+      <HomeAwan/>
+        <div className="home-content">
+          <div className="home-interesting-fact">
+            <h1>Fakta Menarik</h1>
+            <h1>Lihat Semua</h1>
+          </div>
+          <div className="home-slide-fact">
+            <HomeSlider data={sliderHome} />
+          </div>
+        </div>
       </div>
       <img className="home-maskot" src={maskot} alt="maskot" />
     </div>

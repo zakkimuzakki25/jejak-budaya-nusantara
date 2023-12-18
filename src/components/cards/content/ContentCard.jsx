@@ -1,9 +1,18 @@
-import React from 'react'
+import './ContentCard.css';
 
-function ContentCard() {
+function ContentCard({ namaMakanan, daerah, foto, deskripsi }) {
   return (
-    <div>ContentCard</div>
-  )
+    <div className="container-content">
+      <div>
+        <img src={foto} alt={namaMakanan} className="foto-content" />
+      </div>
+      <div>
+        <h2>{namaMakanan}</h2>
+        <p>{daerah}</p>
+        <p>{deskripsi}</p>
+      </div>
+    </div>
+  );
 }
 
-export default ContentCard
+export default ContentCard;
