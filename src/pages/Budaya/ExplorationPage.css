@@ -1,0 +1,36 @@
+.exploration-container {
+    padding: 0px 75px;
+}
+
+/* content-nusantara */
+.card-nusantara {
+    justify-content: center;
+    align-items: center;
+    display : flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .content-nusantara .title {
+    font-size: 40px;
+    font-family: "Bree Serif";
+  }
+  
+  .content-nusantara .content {
+    font-size: 20px;
+    font-family: "Bree Serif";
+  }
+  
+  .content-nusantara .link-path {
+    margin-left: auto;
+    margin-top: 20px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Finger Paint";
+  }

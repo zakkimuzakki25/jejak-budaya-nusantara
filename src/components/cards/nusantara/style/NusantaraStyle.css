@@ -1,19 +1,25 @@
 .laman-adat-kanan {
+  min-height: 400px;
+  min-width: 479px;
   width: 479px;
   display: flex;
   position: relative;
   justify-content: center;
+  align-items: center;
   padding: 0px 50px;
-  background: radial-gradient(circle, rgba(38, 78, 26, 1) , rgba(255, 255, 255, 0) 65%);
+  background: radial-gradient(circle, rgba(38, 78, 26, 1) , rgba(255, 255, 255, 0) 55%);
 }
 
 .laman-adat-kiri {
+  min-height: 400px;
+  min-width: 479px;
   width: 479px;
   display: flex;
   position: relative;
   justify-content: center;
+  align-items: center;
   padding: 0px 50px;
-  background: radial-gradient(circle, rgba(235, 167, 28, 1) , rgba(255, 255, 255, 0) 65%);
+  background: radial-gradient(circle, rgba(235, 167, 28, 1) , rgba(255, 255, 255, 0) 55%);
 }
 
 .card-adat-kiri {
@@ -22,6 +28,7 @@
   justify-content: center;
   align-items: center;
   width: fit-content;
+  height: fit-content;
   padding: 30px;
   gap: 10px;
   border-radius: 10px;
@@ -38,6 +45,7 @@
   justify-content: center;
   align-items: center;
   width: fit-content;
+  height: fit-content;
   padding: 30px;
   gap: 10px;
   border-radius: 10px;
@@ -66,4 +74,3 @@
   width: 150px;
   text-align: center;
 }
-
