@@ -1,38 +1,38 @@
 export const listNavbar = [
   {
     nama: "Rumah Adat",
-    path : ""
+    path : "/eksplorasi/rumah-adat"
   },
   {
     nama: "Pakaian Adat",
-    path : ""
+    path : "/eksplorasi/pakaian-adat"
   },  
   {
     nama: "Upacara Adat",
-    path : ""
+    path : "/eksplorasi/upacara-adat"
   },
   {
     nama: "Senjata Tradisional",
-    path : ""
+    path : "/eksplorasi/senjata-tradisional"
   },
   {
     nama: "Tarian Tradisional",
-    path : ""
+    path : "/eksplorasi/tarian-tradisional"
   },
   {
     nama: "Lagu Daerah",
-    path : ""
+    path : "/eksplorasi/lagu-daerah"
   },
   {
     nama: "Alat Musik",
-    path : ""
+    path : "/eksplorasi/alat-musik"
   },
   {
     nama: "Makanan Khas",
-    path : ""
+    path : "/eksplorasi/makanan-khas"
   },
   {
     nama: "Peninggalan Sejarah",
-    path : ""
+    path : "/eksplorasi/peninggalan-sejarah"
   }
 ];
