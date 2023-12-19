@@ -1,9 +1,28 @@
-.melody-musician {
+.music-hijau-1 {
+    position: absolute;
+    z-index: 1;
+    top: 8%;
+    right: 170px;
+    transform: translateY(-50%);
+    animation: music-hijau-1-animation 0.5s ease-out forwards;
+}
+
+.music-kuning {
     position: absolute;
     z-index: 1;
     top: 35%;
-    right: 118px;
+    right: 105px;
     transform: translateY(-50%);
+    animation: music-kuning-animation 0.5s ease-out forwards;
+}
+
+.music-hijau-2 {
+    position: absolute;
+    z-index: 1;
+    bottom: 25%;
+    right: 148px;
+    transform: translateY(-50%);
+    animation: music-hijau-2-animation 0.5s ease-out forwards;
 }
 
 .maskot-musician {
@@ -12,4 +31,50 @@
     top: 50%;
     left: 50px;
     transform: translateY(-50%);
+    animation: maskot-animation 0.5s ease-out forwards;
 }
+
+@keyframes music-hijau-1-animation {
+    0% {
+      top: 5%;
+      right: 160px;
+      opacity: 0;
+      z-index: 0;
+    }
+    100% {
+      top: 8%;
+      right: 170px;
+      opacity: 1;
+      z-index: 1;
+    }
+  }
+
+  @keyframes music-kuning-animation {
+    0% {
+      top: 35%;
+      right: 95px;
+      opacity: 0;
+      z-index: 0;
+    }
+    100% {
+      top: 35%;
+      right: 105px;
+      opacity: 1;
+      z-index: 1;
+    }
+  }
+
+  @keyframes music-hijau-2-animation {
+    0% {
+      bottom: 23%;
+      right: 138px;
+      opacity: 0;
+      z-index: 0;
+    }
+    100% {
+      bottom: 25%;
+      right: 148px;
+      opacity: 1;
+      z-index: 1;
+    }
+  }

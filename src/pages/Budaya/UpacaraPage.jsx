@@ -15,7 +15,7 @@ const UpacaraPage = () => {
     >
       {listUpacara.map((upacara, index) => (
         <ContentCard
-          jenis="Makanan khas"
+          jenis="Upacara adat"
           nama={upacara.namaUpacara}
           daerah={upacara.daerah}
           foto={upacara.foto}

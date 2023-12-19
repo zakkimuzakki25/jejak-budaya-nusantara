@@ -1,43 +1,44 @@
-import mieAceh from '../assets/image/mie-aceh.svg'
-import rendang from '../assets/image/rendang.svg'
-import sotoLamongan from '../assets/image/soto-lamongan.svg'
-import sateMadura from '../assets/image/sate-madura.svg'
-import gudegJogja from '../assets/image/gudeg-jogja.svg'
+import Gamelan from '../assets/image/Gamelan.svg'
+import Angklung from '../assets/image/Angklung.svg'
+import Sasando from '../assets/image/Sasando.svg'
+import Rebana from '../assets/image/Rebana.svg'
+import Kolintang from '../assets/image/Kolintang.svg'
 
 export const listAlatMusik = [
-    {
-        namaAlatMusik: "Mie Aceh",
-        daerah: "Aceh",
-        foto: mieAceh,
-        deskripsi: "Mie Aceh adalah sebuah hidangan mi khas dari Aceh yang begitu kaya akan cita rasa. Dikenal dengan sentuhan pedas yang khas, mi ini disajikan dengan kuah kental yang penuh dengan rempah-rempah, daging lembut, dan seafood yang melengkapi kelezatannya. Mie Aceh tidak hanya menggoda lidah dengan kepedasannya, tetapi juga memanjakan indera penciuman dengan aroma rempah yang khas. Dengan keunikan tersebut, hidangan ini menjadi favorit di seluruh Indonesia, mencerminkan keberagaman kuliner nusantara.",
-        sumber: "https://assets-pergikuliner.com/uploads/bootsy/image/7346/medium_mie_aceh_2.jpg"
-    },
-    {
-        namaAlatMusik: "Rendang",
-        daerah: "Padang",
-        foto: rendang,
-        deskripsi: "Rendang adalah sebuah keajaiban kuliner dari Padang, Sumatera Barat, yang menyajikan sensasi kenikmatan dalam setiap gigitannya. Daging sapi yang dimasak dengan rempah-rempah khas Padang ini menghasilkan hidangan lezat yang begitu beraroma dan berbumbu. Dengan daging yang dimasak hingga empuk dan bumbu yang meresap, Rendang memberikan pengalaman makan yang tak terlupakan. Aromanya yang khas dan cita rasanya yang mendalam membuat Rendang menjadi salah satu masakan terenak di dunia, diakui bahkan sebagai hidangan khas Indonesia oleh banyak penikmat kuliner internasional.",
-        sumber: "https://www.astronauts.id/blog/wp-content/uploads/2023/03/Resep-Rendang-Daging-Sapi-Untuk-Lebaran-Gurih-dan-Nikmat-1200x675.jpg"
-    },
-    {
-        namaAlatMusik: "Soto Lamongan",
-        daerah: "Lamongan",
-        foto: sotoLamongan,
-        deskripsi: "Soto Lamongan, hidangan khas Lamongan, Jawa Timur, merupakan perpaduan harmonis antara rasa gurih dan segar dalam sejumput hangatnya kuah. Dengan campuran daging ayam yang lembut, tauge yang segar, dan bumbu kacang yang khas, Soto Lamongan menghadirkan kenikmatan yang menggoda selera. Setiap sendokannya membangkitkan nostalgia akan kehangatan rumah, dan aroma rempah-rempahnya membuat hidangan ini tak terlupakan. Sajian ini menjadi pilihan yang sempurna untuk menyenangkan lidah dan memuaskan hasrat kuliner.",
-        sumber: "https://www.masakapahariini.com/wp-content/uploads/2019/11/shutterstock_1469046305.jpg"
-    },
-    {
-        namaAlatMusik: "Sate Madura",
-        daerah: "Madura",
-        foto: sateMadura,
-        deskripsi: "Sate Madura adalah hidangan sate yang merupaka kebanggaan dari Pulau Madura, Jawa Timur. Daging ayam atau daging sapi yang ditusuk dan dipanggang dengan bumbu kacang khas Madura menciptakan cita rasa yang unik dan menggoda. Sate Madura tidak hanya memikat dengan kelembutan dagingnya, tetapi juga dengan kelezatan bumbu kacang yang disajikan bersama lontong. Hidangan ini mengajak penikmatnya untuk menjelajahi kekayaan rasa Indonesia melalui setiap tusukannya, menciptakan pengalaman kuliner yang tak terlupakan.",
-        sumber: "https://resepkoki.id/wp-content/uploads/2017/02/Resep-Sate-Ayam-Madura.jpg"
-    },
-    {
-        namaAlatMusik: "Gudeg Jogja",
-        daerah: "Yogyakarta",
-        foto: gudegJogja,
-        deskripsi: "Gudeg Jogja, hidangan khas Yogyakarta, merupakan sebuah seni kuliner yang memadukan kelembutan nangka muda dengan kekayaan rempah-rempah. Dengan santan, gula merah, dan berbagai rempah pilihan, Gudeg Jogja menghasilkan hidangan yang lezat dan menggugah selera. Sajian ini tidak hanya mengundang dengan kelembutan nangka yang memanjakan lidah, tetapi juga aroma rempah yang begitu menggoda. Gudeg Jogja, disajikan dengan nasi, ayam, dan telur, membawa penikmatnya dalam perjalanan rasa yang memukau, memperkaya pengalaman kuliner Indonesia.",
-        sumber: "https://asset.kompas.com/crops/CnVutHm9LMj8Wp_F9-9fkqYkOhI=/203x225:749x589/750x500/data/photo/2022/12/09/6392a51cdec7d.jpg"
-    },
-]
+  {
+    namaAlatMusik: "Gamelan",
+    daerah: "Jawa",
+    foto: Gamelan,
+    deskripsi:
+      "Gamelan adalah ansambel musik tradisional Jawa yang terdiri dari berbagai jenis instrumen. Instrumen-instrumen gamelan mencakup kendang, saron, demung, gong, dan berbagai logamofon lainnya. Musik gamelan menciptakan harmoni yang khas dan memiliki peran penting dalam berbagai upacara adat, pertunjukan seni, dan acara kebudayaan. Dengan kombinasi melodi yang indah dan irama yang kompleks, Gamelan menjadi identitas khas seni musik Indonesia.",
+    sumber: "https://gubug-wayang.com/wp-content/uploads/2018/11/GAMELAN-JAWA-Cikal-Bakal-Gema-Bunyi-dari-Masa-Jawa-Kuno.jpg",
+  },
+  {
+    namaAlatMusik: "Angklung",
+    daerah: "Sunda",
+    foto: Angklung,
+    deskripsi: "Angklung adalah alat musik tradisional Sunda yang terbuat dari bambu. Setiap tabung bambu menghasilkan nada yang berbeda, dan ketika digoyangkan, angklung menghasilkan melodi yang indah. Alat musik ini sering digunakan dalam pertunjukan seni dan upacara adat. Angklung bukan hanya alat musik, tetapi juga simbol kebersamaan dan harmoni di masyarakat Sunda. Dengan suara yang unik dan estetika seni yang khas, Angklung memukau pendengarnya.",
+    sumber: "https://www.blibli.com/friends-backend/wp-content/uploads/2021/04/Angklung-1.jpg"
+  },
+  {
+    namaAlatMusik: "Sasando",
+    daerah: "NTT",
+    foto: Sasando,
+    deskripsi: "Sasando adalah alat musik tradisional khas Nusa Tenggara Timur yang terbuat dari daun lontar. Sasando memiliki bentuk seperti seruling dan memiliki senar yang dipetik untuk menghasilkan suara yang khas. Alat musik ini sering digunakan dalam berbagai upacara adat dan pertunjukan seni tradisional di NTT. Sasando tidak hanya menjadi alat musik, tetapi juga memegang peranan penting dalam melestarikan warisan budaya masyarakat NTT.",
+    sumber: "https://api2.kemenparekraf.go.id/storage/app/resources/image_artikel/Mengenal%20Alat%20Musik%20Sasando%20yang%20Mendunia_Shutterstock%201382853482_Raiyani%20Muharramah.jpg"
+  },
+  {
+    namaAlatMusik: "Rebana",
+    daerah: "Aceh",
+    foto: Rebana,
+    deskripsi: "Rebana adalah alat musik perkusi tradisional yang berasal dari Aceh. Alat ini terbuat dari kayu dan kulit kambing yang direntangkan di atasnya. Rebana digunakan dalam berbagai upacara adat, acara keagamaan, dan pertunjukan seni. Suara berdentum Rebana menciptakan ritme yang khas dan sering diiringi oleh nyanyian syair atau doa. Alat musik ini memegang peranan penting dalam tradisi dan kebudayaan Aceh.",
+    sumber: "https://upload.wikimedia.org/wikipedia/commons/a/ad/COLLECTIE_TROPENMUSEUM_Enkelvellige_lijsttrom_met_rinkelschijven_TMnr_1032-2.jpg"
+  },
+  {
+    namaAlatMusik: "Kolintang",
+    daerah: "Minahasa",
+    foto: Kolintang,
+    deskripsi: "Kolintang adalah alat musik tradisional yang berasal dari Minahasa, Sulawesi Utara. Terdiri dari serangkaian gong yang disusun secara horizontal, Kolintang dimainkan dengan memukul gong-gong tersebut untuk menghasilkan melodi yang indah. Alat musik ini sering digunakan dalam acara adat, upacara perkawinan, dan pertunjukan seni. Kolintang menjadi simbol kekayaan seni musik tradisional Indonesia, mencerminkan keindahan dan keunikan budaya Minahasa.",
+    sumber: "https://www.djkn.kemenkeu.go.id/files/images/2021/09/Manado_-_Kolintang_IE1.jpeg"
+  },
+];

@@ -59,4 +59,11 @@
   font-size: 20px;
   font-family: "Finger Paint";
   cursor: pointer;
+  text-decoration: none;
+}
+
+.nusantara-container a:visited .card-nusantara-letter {
+  text-decoration: underline;
+  color: var(--header-bg-color);
+  scale: 1.1;
 }

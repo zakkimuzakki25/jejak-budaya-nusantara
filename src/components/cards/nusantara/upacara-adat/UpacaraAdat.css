@@ -4,6 +4,8 @@
   top: 50%;
   right: 50px;
   transform: translateY(-50%);
+  transition: all 0.5s ease;
+  animation: janur-adat-animation 0.5s ease-out forwards;
 }
 
 .maskot-upacara-adat {
@@ -12,4 +14,19 @@
   top: 50%;
   left: 50px;
   transform: translateY(-50%);
+  transition: all 0.5s ease;
+  animation: maskot-animation 0.5s ease-out forwards;
+}
+
+@keyframes janur-adat-animation {
+  0% {
+    top: 50%;
+    right: 25%;
+    opacity: 0;
+  }
+  100% {
+    top: 50%;
+    right: 50px;
+    opacity: 1;
+  }
 }
