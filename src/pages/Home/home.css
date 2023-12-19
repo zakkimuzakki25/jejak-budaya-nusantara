@@ -5,6 +5,7 @@
   --color-other-black: #333333;
   --color-primary-50: #9FB099;
   --color-primary-100: #879D80;
+  --color-primary-700: #0F3B01;
   --color-primary-800: #0A2900;
   --accent-color-main: #fc3903;
   --accent-color-secondary: #f3ca76;
@@ -12,6 +13,7 @@
   --accent-color-secondary-300: #EFB849;
   --accent-color-secondary-400: #EBA71C;
   --accent-color-secondary-500: #D39619 ;
+  --accent-color-secondary-600: #A47413 ;
   --accent-color-tertiary: #879d80;
   --bubble-chat-bg-color: #fbedd1;
   --footer-bg-color: #d39619;

@@ -39,7 +39,11 @@ function Home() {
         <HomeAwan />
         <div className="home-content">
           <div className="home-interesting-fact">
-            <h1>Fakta Menarik</h1>
+            <h1 style={{
+              fontFamily: 'Handlee',
+              fontSize: '25px',
+              fontStyle: 'normal',
+            }}>Fakta Menarik</h1>
             <Link className="link-path">
               <p style={{ margin: "0px" }}>lihat semua</p>
               <img src={VectorArrow} style={{ height: "fit-content" }} />
