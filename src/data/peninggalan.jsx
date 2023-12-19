@@ -1,43 +1,43 @@
-import mieAceh from '../assets/image/mie-aceh.svg'
-import rendang from '../assets/image/rendang.svg'
-import sotoLamongan from '../assets/image/soto-lamongan.svg'
-import sateMadura from '../assets/image/sate-madura.svg'
-import gudegJogja from '../assets/image/gudeg-jogja.svg'
+import CandiBorobudur from '../assets/image/Candi-Borobudur.svg';
+import TuguPahlawan from '../assets/image/Tugu-Pahlawan.svg';
+import BentengKutoBesak from '../assets/image/Benteng-Kuto-Besak.svg';
+import TamanSariYogyakarta from '../assets/image/Taman-Sari-Yogyakarta.svg';
+import MuseumNasional from '../assets/image/Museum-Nasional-Indonesia.svg';
 
 export const listPeninggalan = [
     {
-        namaPeninggalan: "Mie Aceh",
-        daerah: "Aceh",
-        foto: mieAceh,
-        deskripsi: "Mie Aceh adalah sebuah hidangan mi khas dari Aceh yang begitu kaya akan cita rasa. Dikenal dengan sentuhan pedas yang khas, mi ini disajikan dengan kuah kental yang penuh dengan rempah-rempah, daging lembut, dan seafood yang melengkapi kelezatannya. Mie Aceh tidak hanya menggoda lidah dengan kepedasannya, tetapi juga memanjakan indera penciuman dengan aroma rempah yang khas. Dengan keunikan tersebut, hidangan ini menjadi favorit di seluruh Indonesia, mencerminkan keberagaman kuliner nusantara.",
-        sumber: "https://assets-pergikuliner.com/uploads/bootsy/image/7346/medium_mie_aceh_2.jpg"
+        namaPeninggalan: "Candi Borobudur",
+        daerah: "Magelang, Jawa Tengah",
+        foto: CandiBorobudur,
+        deskripsi: "Candi Borobudur adalah candi Buddha terbesar di dunia, terletak di Magelang, Jawa Tengah. Candi ini merupakan warisan budaya dunia yang megah, dengan relief dan arsitektur yang memukau. Dibangun pada abad ke-9 oleh dinasti Syailendra, Candi Borobudur menjadi salah satu tujuan wisata sejarah terkenal di Indonesia.",
+        sumber: "https://asset.kompas.com/crops/OSrnr3VxP9UPoRBWwdIFRfWmucs=/0x0:0x0/1200x800/data/photo/2022/06/05/629c81f0e7f11.jpeg"
     },
     {
-        namaPeninggalan: "Rendang",
-        daerah: "Padang",
-        foto: rendang,
-        deskripsi: "Rendang adalah sebuah keajaiban kuliner dari Padang, Sumatera Barat, yang menyajikan sensasi kenikmatan dalam setiap gigitannya. Daging sapi yang dimasak dengan rempah-rempah khas Padang ini menghasilkan hidangan lezat yang begitu beraroma dan berbumbu. Dengan daging yang dimasak hingga empuk dan bumbu yang meresap, Rendang memberikan pengalaman makan yang tak terlupakan. Aromanya yang khas dan cita rasanya yang mendalam membuat Rendang menjadi salah satu masakan terenak di dunia, diakui bahkan sebagai hidangan khas Indonesia oleh banyak penikmat kuliner internasional.",
-        sumber: "https://www.astronauts.id/blog/wp-content/uploads/2023/03/Resep-Rendang-Daging-Sapi-Untuk-Lebaran-Gurih-dan-Nikmat-1200x675.jpg"
+        namaPeninggalan: "Tugu Pahlawan",
+        daerah: "Surabaya, Jawa Timur",
+        foto: TuguPahlawan,
+        deskripsi: "Tugu Pahlawan, juga dikenal sebagai Monumen Nasional, terletak di Surabaya, Jawa Timur. Monumen ini didedikasikan untuk mengenang para pahlawan yang gugur dalam Pertempuran Surabaya pada 10 November 1945. Dengan arsitektur yang mengesankan, Tugu Pahlawan menjadi simbol keberanian dan perjuangan bangsa Indonesia.",
+        sumber: "https://akcdn.detik.net.id/community/media/visual/2022/11/02/sejarah-tugu-pahlawan-di-surabaya-ini-lokasi-monumen-pertempuran-10-november-1_169.jpeg?w=700&q=90"
     },
     {
-        namaPeninggalan: "Soto Lamongan",
-        daerah: "Lamongan",
-        foto: sotoLamongan,
-        deskripsi: "Soto Lamongan, hidangan khas Lamongan, Jawa Timur, merupakan perpaduan harmonis antara rasa gurih dan segar dalam sejumput hangatnya kuah. Dengan campuran daging ayam yang lembut, tauge yang segar, dan bumbu kacang yang khas, Soto Lamongan menghadirkan kenikmatan yang menggoda selera. Setiap sendokannya membangkitkan nostalgia akan kehangatan rumah, dan aroma rempah-rempahnya membuat hidangan ini tak terlupakan. Sajian ini menjadi pilihan yang sempurna untuk menyenangkan lidah dan memuaskan hasrat kuliner.",
-        sumber: "https://www.masakapahariini.com/wp-content/uploads/2019/11/shutterstock_1469046305.jpg"
+        namaPeninggalan: "Benteng Kuto Besak",
+        daerah: "Palembang, Sumatera Selatan",
+        foto: BentengKutoBesak,
+        deskripsi: "Benteng Kuto Besak adalah benteng peninggalan Kesultanan Palembang Darussalam, terletak di Palembang, Sumatera Selatan. Benteng ini memiliki sejarah panjang dan menjadi saksi bisu perkembangan sejarah kota Palembang. Dengan arsitektur yang kokoh, Benteng Kuto Besak menjadi destinasi bersejarah yang menarik.",
+        sumber: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Kutobesak.jpg"
     },
     {
-        namaPeninggalan: "Sate Madura",
-        daerah: "Madura",
-        foto: sateMadura,
-        deskripsi: "Sate Madura adalah hidangan sate yang merupaka kebanggaan dari Pulau Madura, Jawa Timur. Daging ayam atau daging sapi yang ditusuk dan dipanggang dengan bumbu kacang khas Madura menciptakan cita rasa yang unik dan menggoda. Sate Madura tidak hanya memikat dengan kelembutan dagingnya, tetapi juga dengan kelezatan bumbu kacang yang disajikan bersama lontong. Hidangan ini mengajak penikmatnya untuk menjelajahi kekayaan rasa Indonesia melalui setiap tusukannya, menciptakan pengalaman kuliner yang tak terlupakan.",
-        sumber: "https://resepkoki.id/wp-content/uploads/2017/02/Resep-Sate-Ayam-Madura.jpg"
-    },
-    {
-        namaPeninggalan: "Gudeg Jogja",
+        namaPeninggalan: "Taman Sari Yogyakarta",
         daerah: "Yogyakarta",
-        foto: gudegJogja,
-        deskripsi: "Gudeg Jogja, hidangan khas Yogyakarta, merupakan sebuah seni kuliner yang memadukan kelembutan nangka muda dengan kekayaan rempah-rempah. Dengan santan, gula merah, dan berbagai rempah pilihan, Gudeg Jogja menghasilkan hidangan yang lezat dan menggugah selera. Sajian ini tidak hanya mengundang dengan kelembutan nangka yang memanjakan lidah, tetapi juga aroma rempah yang begitu menggoda. Gudeg Jogja, disajikan dengan nasi, ayam, dan telur, membawa penikmatnya dalam perjalanan rasa yang memukau, memperkaya pengalaman kuliner Indonesia.",
-        sumber: "https://asset.kompas.com/crops/CnVutHm9LMj8Wp_F9-9fkqYkOhI=/203x225:749x589/750x500/data/photo/2022/12/09/6392a51cdec7d.jpg"
+        foto: TamanSariYogyakarta,
+        deskripsi: "Taman Sari, juga dikenal sebagai Taman Sari Yogyakarta, adalah kompleks taman dan istana air yang terletak di Yogyakarta. Dibangun pada abad ke-18 oleh Sultan Hamengkubuwono I, Taman Sari memiliki arsitektur yang indah dan memiliki fungsi sebagai tempat rekreasi dan istana kerajaan. Saat ini, Taman Sari menjadi salah satu ikon sejarah Yogyakarta.",
+        sumber: "https://asset.kompas.com/crops/RcLIQDbBE1Q-C9jTWEzmvxofG44=/14x0:989x650/750x500/data/photo/2020/02/20/5e4e6891abe99.jpg"
     },
-]
+    {
+        namaPeninggalan: "Museum Nasional Indonesia",
+        daerah: "Jakarta",
+        foto: MuseumNasional,
+        deskripsi: "Museum Nasional Indonesia, juga dikenal sebagai Gedung Gajah, terletak di Jakarta Pusat. Museum ini didirikan pada tahun 1778 dan merupakan museum tertua di Indonesia. Koleksi museum mencakup artefak sejarah, seni, dan kebudayaan Indonesia. Gedung Gajah menjadi saksi perjalanan panjang sejarah Indonesia.",
+        sumber: "https://upload.wikimedia.org/wikipedia/commons/4/45/Museum_Nasional_Indonesia.jpg"
+    },
+];
