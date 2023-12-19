@@ -16,7 +16,7 @@ export const listSenjata = [
   },
   {
     namaSenjata: "Golok Ciomas",
-    asal: "Banten",
+    daerah: "Banten",
     foto: GolokCiomas,
     deskripsi:
       "Golok Ciomas, senjata tradisional asal Banten. Dibuat dengan ritual dan persyaratan khusus. Selain golok ciomas, Banten juga memiliki golok sulangka, parang, dan congkrang sebagai senjata tradisional.",
@@ -25,7 +25,7 @@ export const listSenjata = [
   },
   {
     namaSenjata: "Tombak Trisula",
-    asal: "Sumatera Selatan",
+    daerah: "Sumatera Selatan",
     foto: TombakTrisula,
     deskripsi:
       "Tombak Trisula, senjata Sumatera Selatan, memiliki tiga mata tombak yang menyolok, berbentuk tombak kayu sepanjang 180 cm. Selain tombak trisula, Sumatera Selatan juga memiliki senjata seperti keris Palembang dan klewang hembrug.",
@@ -34,7 +34,7 @@ export const listSenjata = [
   },
   {
     namaSenjata: "Piso Gaja Dompak",
-    asal: "Sumatera Utara",
+    daerah: "Sumatera Utara",
     foto: PisoGajaDompak,
     deskripsi:
       "Piso Gaja Dompak, senjata tradisional Sumatera Utara, dulunya sering digunakan oleh Raja Batak. Diambil dari nama piso yang artinya pisau, gaja yang artinya gajah, dan dompak yang artinya kewibawaan.",
@@ -43,7 +43,7 @@ export const listSenjata = [
   },
   {
     namaSenjata: "Keris Bengkulu",
-    asal: "Bengkulu",
+    daerah: "Bengkulu",
     foto: KerisBengkulu,
     deskripsi:
       "Keris Bengkulu, senjata tradisional dari Bengkulu, memiliki bilah yang lebih lurus, gagang yang elegan, dan hulu yang dihiasi dengan ukiran indah. Sering digunakan dalam upacara adat dan dianggap sebagai benda pusaka.",
