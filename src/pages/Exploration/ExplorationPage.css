@@ -67,8 +67,12 @@
   text-decoration: none;
 }
 
-.nusantara-container a:visited .card-nusantara-letter {
-  text-decoration: underline;
-  color: var(--header-bg-color);
-  scale: 1.1;
+.card-nusantara-letter.active-green {
+  background-color: var(--color-primary-700);
+  color: #ffffff;
+}
+
+.card-nusantara-letter.active-yellow {
+  background-color: var(--accent-color-secondary-500);
+  color: #ffffff;
 }
