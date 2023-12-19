@@ -1,7 +1,7 @@
 import ContentCard from "../../components/cards/content/ContentCard";
-import { listPeninggalan } from "../../data/peninggalan.jsx";
+import { listAlatMusik } from "../../data/alat-musik.jsx";
 
-const LaguPage = () => {
+const AlatMusikPage = () => {
   return (
     <div
       style={{
@@ -13,14 +13,14 @@ const LaguPage = () => {
         paddingBottom: "30px",
       }}
     >
-      {listPeninggalan.map((peninggalan, index) => (
+      {listAlatMusik.map((alatMusik, index) => (
         <ContentCard
-          jenis="Lagu khas"
-          nama={peninggalan.namaPeninggalan}
-          daerah={peninggalan.daerah}
-          foto={peninggalan.foto}
-          deskripsi={peninggalan.deskripsi}
-          sumber={peninggalan.sumber}
+          jenis="Alat Musik khas"
+          nama={alatMusik.namaAlatMusik}
+          daerah={alatMusik.daerah}
+          foto={alatMusik.foto}
+          deskripsi={alatMusik.deskripsi}
+          sumber={alatMusik.sumber}
           key={index}
         />
       ))}
@@ -28,4 +28,4 @@ const LaguPage = () => {
   );
 };
 
-export default LaguPage;
+export default AlatMusikPage;

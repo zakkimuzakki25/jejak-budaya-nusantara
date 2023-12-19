@@ -46,7 +46,7 @@ const ExplorationPage = () => {
                   Sed tristique dui eros, in lacinia tellus pulvinar in.
                   Maecenas suscipit ut ligula at pretium.
                 </div>
-                <Link to="/detail" className="link-path">
+                <Link to={exploration.path} className="link-path">
                   <p>lihat selengkapnya</p>
                   <img src={VectorArrow} alt="Vector Arrow" />
                 </Link>
