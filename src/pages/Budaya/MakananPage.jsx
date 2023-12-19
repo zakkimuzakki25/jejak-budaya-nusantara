@@ -15,10 +15,12 @@ const MakananPage = () => {
     >
       {listMakanan.map((makanan, index) => (
         <ContentCard
-          namaMakanan={makanan.namaMakanan}
+          jenis="Makanan khas"
+          nama={makanan.namaMakanan}
           daerah={makanan.daerah}
           foto={makanan.foto}
           deskripsi={makanan.deskripsi}
+          sumber={makanan.sumber}
           key={index}
         />
       ))}
