@@ -1,8 +1,8 @@
 .navbar-popup-container {
   display: flex;
-  flex-direction: column;
+  height: fit-content;
+  flex-direction: row;
   position: absolute;
-  gap: 20px;
   top: 100%;
   left: 0;
   width: 100%;
@@ -16,6 +16,19 @@
   transform: translateY(-10px);
   transition: opacity 0.3s, transform 0.3s;
   animation: animationPopUpNavbar 0.3s ease-in-out forwards;
+}
+
+.navbar-popup-section{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.button-explore-section-navbar {
+  width: fit-content;
+  height: fit-content;
+  transform: scale(0.5);
 }
 
 .popup-section {
