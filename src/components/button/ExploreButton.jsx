@@ -3,7 +3,7 @@ import sayapAtas from '../../assets/main-button/SayapAtas.svg';
 import sayapBawah from '../../assets/main-button/SayapBawah.svg';
 import './ExploreButton.css';
 
-function ExploreButton() {
+const ExploreButton = ({data}) => {
   return (
     <div className="explore-button-container">
       <img className="sayap-atas-kiri" src={sayapAtas} alt="Sayap Atas"/>
@@ -12,7 +12,7 @@ function ExploreButton() {
         to="/eksplorasi"
         className="button-explore-link"
       >
-        MULAI EKSPLORASI
+        {data}
       </Link>
       <img className="sayap-atas-kanan" src={sayapAtas} alt="Sayap Atas"/>
       <img className="sayap-bawah-kanan" src={sayapBawah} alt="Sayap Bawah"/>

@@ -28,7 +28,7 @@ function Home() {
           </div>
         </div>
         <div className="button-explore-section">
-          <ExploreButton />
+          <ExploreButton data={"MULAI EKSPLORASI"}/>
         </div>
       </div>
       <div  className="home-awan">
