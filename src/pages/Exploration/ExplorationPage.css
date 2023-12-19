@@ -11,7 +11,7 @@
     width: 100%;
     border-bottom: 1px solid #000000;
   }
-  
+
   .content-nusantara .title {
     font-size: 40px;
     font-family: "Bree Serif";
@@ -22,10 +22,8 @@
     font-family: "Bree Serif";
   }
 
-  .content-nusantara a:visited p {
-    text-decoration: underline;
-    color: var(--header-bg-color);
-    scale: 1.1;
+  .content-nusantara a:hover {
+    scale: 1.075;
   }
   
   .content-nusantara .link-path {
@@ -33,6 +31,7 @@
     margin-top: 20px;
     width: fit-content;
     display: flex;
+    align-items: center;
     flex-direction: row;
     gap: 10px;
     text-decoration: none;

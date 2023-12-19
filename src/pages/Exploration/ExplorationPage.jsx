@@ -47,8 +47,8 @@ const ExplorationPage = () => {
                   Maecenas suscipit ut ligula at pretium.
                 </div>
                 <Link to={exploration.path} className="link-path">
-                  <p>lihat selengkapnya</p>
-                  <img src={VectorArrow} alt="Vector Arrow" />
+                  <p style={{margin: "0px"}}>lihat selengkapnya</p>
+                  <img src={VectorArrow} alt="Vector Arrow" style={{height: "fit-content"}}/>
                 </Link>
               </div>
             </>
@@ -73,8 +73,8 @@ const ExplorationPage = () => {
                   Maecenas suscipit ut ligula at pretium.
                 </div>
                 <Link to={exploration.path} className="link-path">
-                  <p>lihat selengkapnya</p>
-                  <img src={VectorArrow} alt="Vector Arrow" />
+                  <p style={{margin: "0px"}}>lihat selengkapnya</p>
+                  <img src={VectorArrow} alt="Vector Arrow" style={{height: "fit-content"}}/>
                 </Link>
               </div>
 
