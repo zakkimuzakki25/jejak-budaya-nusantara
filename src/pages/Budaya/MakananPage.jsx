@@ -1,7 +1,11 @@
 import ContentCard from "../../components/cards/content/ContentCard";
 import { listMakanan } from "../../data/makanan.jsx";
+import { useEffect } from "react";
 
 const MakananPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div
       style={{

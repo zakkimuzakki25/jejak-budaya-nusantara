@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import { explorationList } from "../../data/ExplorationPageList";
 import VectorArrow from "../../assets/support/VectorArrow.svg";
 import "./ExplorationPage.css";
 
 const ExplorationPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {

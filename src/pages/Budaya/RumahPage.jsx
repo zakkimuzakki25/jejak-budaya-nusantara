@@ -1,7 +1,11 @@
 import ContentCard from "../../components/cards/content/ContentCard";
 import { listRumahAdat } from "../../data/rumah.jsx";
+import { useEffect } from "react";
 
 const RumahPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div
       style={{

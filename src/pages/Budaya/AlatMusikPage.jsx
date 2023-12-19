@@ -1,7 +1,11 @@
 import ContentCard from "../../components/cards/content/ContentCard";
 import { listAlatMusik } from "../../data/alat-musik.jsx";
+import { useEffect } from "react";
 
 const AlatMusikPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div
       style={{

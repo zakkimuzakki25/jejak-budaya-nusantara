@@ -1,7 +1,11 @@
 import ContentCard from "../../components/cards/content/ContentCard";
 import { listTarian } from "../../data/tarian.jsx";
+import { useEffect } from "react";
 
 const TarianPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div
       style={{

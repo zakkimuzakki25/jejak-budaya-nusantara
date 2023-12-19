@@ -1,7 +1,11 @@
 import ContentCard from "../../components/cards/content/ContentCard";
 import { listLagu } from "../../data/lagu.jsx";
+import React, { useEffect, useState } from "react";
 
 const LaguPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div
       style={{

@@ -7,8 +7,12 @@ import HomeAwan from "../../components/background/HomeAwan";
 import VectorArrow from "../../assets/support/VectorArrow.svg";
 import { sliderHome } from "../../data/home";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="home">
@@ -28,17 +32,17 @@ function Home() {
           </div>
         </div>
         <div className="button-explore-section">
-          <ExploreButton data={"MULAI EKSPLORASI"}/>
+          <ExploreButton data={"MULAI EKSPLORASI"} />
         </div>
       </div>
-      <div  className="home-awan">
-      <HomeAwan/>
+      <div className="home-awan">
+        <HomeAwan />
         <div className="home-content">
           <div className="home-interesting-fact">
             <h1>Fakta Menarik</h1>
             <Link className="link-path">
-              <p style={{margin: "0px"}}>lihat semua</p>
-              <img src={VectorArrow} style={{height: "fit-content"}}/>
+              <p style={{ margin: "0px" }}>lihat semua</p>
+              <img src={VectorArrow} style={{ height: "fit-content" }} />
             </Link>
           </div>
           <div className="home-slide-fact">

@@ -1,7 +1,10 @@
 import ContentCard from "../../components/cards/content/ContentCard";
 import { listUpacara } from "../../data/upacara.jsx";
-
+import { useEffect } from "react";
 const UpacaraPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div
       style={{

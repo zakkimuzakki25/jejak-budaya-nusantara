@@ -1,7 +1,11 @@
 import ContentCard from "../../components/cards/content/ContentCard";
 import { listPeninggalan } from "../../data/peninggalan.jsx";
+import { useEffect } from "react";
 
 const LaguPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div
       style={{
