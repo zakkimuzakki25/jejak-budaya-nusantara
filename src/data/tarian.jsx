@@ -1,8 +1,8 @@
-import TariSaman from "../assets/images/Tari-Saman.svg";
-import TariPendet from "../assets/images/Tari-Pendet.svg";
-import TariTorTor from "../assets/images/Tari-TorTor.svg";
-import TariReog from "../assets/images/Tari-Reog.svg";
-import TariTopeng from "../assets/images/Tari-Topeng.svg";
+import TariSaman from "../assets/image/Tari-Saman.svg";
+import TariPendet from "../assets/image/Tari-Pendet.svg";
+import TariTorTor from "../assets/image/Tari-TorTor.svg";
+import TariReog from "../assets/image/Tari-Reog.svg";
+import TariTopeng from "../assets/image/Tari-Topeng.svg";
 
 export const listTarian = [
   {
