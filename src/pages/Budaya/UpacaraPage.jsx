@@ -1,7 +1,12 @@
 import ContentCard from "../../components/cards/content/ContentCard";
 import { listUpacara } from "../../data/upacara.jsx";
+import { useEffect } from "react";
+import maskot from "/src/assets/maskots/MaskotUpacara.svg";
 
 const UpacaraPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div
       style={{
@@ -24,6 +29,16 @@ const UpacaraPage = () => {
           key={index}
         />
       ))}
+      <img
+        className="home-maskot"
+        src={maskot}
+        alt="maskot"
+        style={{
+          position: "fixed",
+          bottom: "10px",
+          right: "10px",
+        }}
+      />
     </div>
   );
 };

@@ -1,7 +1,12 @@
 import ContentCard from "../../components/cards/content/ContentCard";
 import { listSenjata } from "../../data/senjata.jsx";
+import { useEffect } from "react";
+import maskot from "/src/assets/maskots/MaskotSenjata.svg";
 
 const SenjataPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div
       style={{
@@ -24,6 +29,16 @@ const SenjataPage = () => {
           key={index}
         />
       ))}
+      <img
+        className="home-maskot"
+        src={maskot}
+        alt="maskot"
+        style={{
+          position: "fixed",
+          bottom: "10px",
+          right: "10px",
+        }}
+      />
     </div>
   );
 };

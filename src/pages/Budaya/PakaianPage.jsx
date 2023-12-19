@@ -1,7 +1,12 @@
 import ContentCard from "../../components/cards/content/ContentCard";
 import { listPakaian } from "../../data/pakaian.jsx";
+import { useEffect } from "react";
+import maskot from "/src/assets/maskots/MaskotMainSmile.svg";
 
 const PakaianPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div
       style={{
@@ -24,6 +29,16 @@ const PakaianPage = () => {
           key={index}
         />
       ))}
+      <img
+        className="home-maskot"
+        src={maskot}
+        alt="maskot"
+        style={{
+          position: "fixed",
+          bottom: "10px",
+          right: "10px",
+        }}
+      />
     </div>
   );
 };
