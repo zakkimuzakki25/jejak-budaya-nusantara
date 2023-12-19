@@ -1,43 +1,42 @@
-import mieAceh from '../assets/image/mie-aceh.svg'
-import rendang from '../assets/image/rendang.svg'
-import sotoLamongan from '../assets/image/soto-lamongan.svg'
-import sateMadura from '../assets/image/sate-madura.svg'
-import gudegJogja from '../assets/image/gudeg-jogja.svg'
+import TelukBelanga from '../assets/image/Teluk-Belanga.svg'
+import BundoKanduang from '../assets/image/Bundo-Kanduang.svg'
+import Ulos from '../assets/image/Ulos.svg'
+import AesanGede from '../assets/image/Aesan-Gede.svg'
 
 export const listPakaian = [
     {
-        namaPakaian: "Mie Aceh",
+        namaPakaian: "Ulee Balang",
         daerah: "Aceh",
-        foto: mieAceh,
-        deskripsi: "Mie Aceh adalah sebuah hidangan mi khas dari Aceh yang begitu kaya akan cita rasa. Dikenal dengan sentuhan pedas yang khas, mi ini disajikan dengan kuah kental yang penuh dengan rempah-rempah, daging lembut, dan seafood yang melengkapi kelezatannya. Mie Aceh tidak hanya menggoda lidah dengan kepedasannya, tetapi juga memanjakan indera penciuman dengan aroma rempah yang khas. Dengan keunikan tersebut, hidangan ini menjadi favorit di seluruh Indonesia, mencerminkan keberagaman kuliner nusantara.",
-        sumber: "https://assets-pergikuliner.com/uploads/bootsy/image/7346/medium_mie_aceh_2.jpg"
+        foto: TelukBelanga,
+        deskripsi: "Pakaian adat Ulee Balang merupakan warisan budaya Aceh yang kaya akan detail dan simbol. Untuk pria, terdapat Linto Baro yang terdiri dari meukeutop sebagai penutup kepala, meukasah sebagai baju dengan sulaman benang emas, dan celana cekak musang (sileuweu). Bagi wanita, terdapat Daro Baro dengan desain baju kurung yang dipengaruhi oleh budaya Melayu, Cina, dan Arab.",
+        sumber: "https://asset.kompas.com/data/photo/buku/63c76684c838d.png"
     },
     {
-        namaPakaian: "Rendang",
-        daerah: "Padang",
-        foto: rendang,
-        deskripsi: "Rendang adalah sebuah keajaiban kuliner dari Padang, Sumatera Barat, yang menyajikan sensasi kenikmatan dalam setiap gigitannya. Daging sapi yang dimasak dengan rempah-rempah khas Padang ini menghasilkan hidangan lezat yang begitu beraroma dan berbumbu. Dengan daging yang dimasak hingga empuk dan bumbu yang meresap, Rendang memberikan pengalaman makan yang tak terlupakan. Aromanya yang khas dan cita rasanya yang mendalam membuat Rendang menjadi salah satu masakan terenak di dunia, diakui bahkan sebagai hidangan khas Indonesia oleh banyak penikmat kuliner internasional.",
-        sumber: "https://www.astronauts.id/blog/wp-content/uploads/2023/03/Resep-Rendang-Daging-Sapi-Untuk-Lebaran-Gurih-dan-Nikmat-1200x675.jpg"
+        namaPakaian: "Bundo Kanduang",
+        daerah: "Sumatera Barat",
+        foto: BundoKanduang,
+        deskripsi: "Bundo Kanduang adalah pakaian adat khas Sumatera Barat yang identik dengan warna merah dan aksesori lengkap, khususnya untuk calon pengantin wanita. Selendang, mahkota, gelang, dan kalung menjadi bagian dari aksesori yang dipakai dalam upacara pernikahan. Bundo Kanduang mencerminkan keindahan dan keanggunan tradisi Minangkabau.",
+        sumber: "https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/11/19/3681407665.jpg"
     },
     {
-        namaPakaian: "Soto Lamongan",
-        daerah: "Lamongan",
-        foto: sotoLamongan,
-        deskripsi: "Soto Lamongan, hidangan khas Lamongan, Jawa Timur, merupakan perpaduan harmonis antara rasa gurih dan segar dalam sejumput hangatnya kuah. Dengan campuran daging ayam yang lembut, tauge yang segar, dan bumbu kacang yang khas, Soto Lamongan menghadirkan kenikmatan yang menggoda selera. Setiap sendokannya membangkitkan nostalgia akan kehangatan rumah, dan aroma rempah-rempahnya membuat hidangan ini tak terlupakan. Sajian ini menjadi pilihan yang sempurna untuk menyenangkan lidah dan memuaskan hasrat kuliner.",
-        sumber: "https://www.masakapahariini.com/wp-content/uploads/2019/11/shutterstock_1469046305.jpg"
+        namaPakaian: "Ulos",
+        daerah: "Sumatera Utara",
+        foto: Ulos,
+        deskripsi: "Ulos, pakaian adat dari Sumatera Utara, memukau dengan perpaduan warna merah, hitam, dan putih yang penuh makna filosofis. Setiap warna memiliki simbol nilai yang disampaikan dalam pesan tak langsung. Ulos adalah karya seni tekstil yang sarat dengan makna budaya, menciptakan keindahan dalam tradisi dan warisan nenek moyang.",
+        sumber: "https://cdns.klimg.com/merdeka.com/i/w/news/2021/06/09/1316230/540x270/rona-cantik-memesona-berbalut-ulos-khas-adat-batak.jpg"
     },
     {
-        namaPakaian: "Sate Madura",
-        daerah: "Madura",
-        foto: sateMadura,
-        deskripsi: "Sate Madura adalah hidangan sate yang merupaka kebanggaan dari Pulau Madura, Jawa Timur. Daging ayam atau daging sapi yang ditusuk dan dipanggang dengan bumbu kacang khas Madura menciptakan cita rasa yang unik dan menggoda. Sate Madura tidak hanya memikat dengan kelembutan dagingnya, tetapi juga dengan kelezatan bumbu kacang yang disajikan bersama lontong. Hidangan ini mengajak penikmatnya untuk menjelajahi kekayaan rasa Indonesia melalui setiap tusukannya, menciptakan pengalaman kuliner yang tak terlupakan.",
-        sumber: "https://resepkoki.id/wp-content/uploads/2017/02/Resep-Sate-Ayam-Madura.jpg"
+        namaPakaian: "Aesan Gede",
+        daerah: "Sumatera Selatan",
+        foto: AesanGede,
+        deskripsi: "Aesan Gede, pakaian adat Sumatera Selatan yang dipakai dalam upacara pernikahan, menggambarkan kemegahan dengan perhiasan berwarna emas. Nama 'Aesan Gede' terkait dengan julukan Sumatera sebagai pulau emas. Pakaian ini mencerminkan kekayaan budaya, dengan sentuhan kain songket dan unsur Hindu Budha yang terkandung di dalamnya.",
+        sumber: "https://image.popmama.com/content-images/post/20210813/picsart-08-13-042740-17ab6a219d05d286da42e0208dd44b15.jpg"
     },
     {
-        namaPakaian: "Gudeg Jogja",
-        daerah: "Yogyakarta",
-        foto: gudegJogja,
-        deskripsi: "Gudeg Jogja, hidangan khas Yogyakarta, merupakan sebuah seni kuliner yang memadukan kelembutan nangka muda dengan kekayaan rempah-rempah. Dengan santan, gula merah, dan berbagai rempah pilihan, Gudeg Jogja menghasilkan hidangan yang lezat dan menggugah selera. Sajian ini tidak hanya mengundang dengan kelembutan nangka yang memanjakan lidah, tetapi juga aroma rempah yang begitu menggoda. Gudeg Jogja, disajikan dengan nasi, ayam, dan telur, membawa penikmatnya dalam perjalanan rasa yang memukau, memperkaya pengalaman kuliner Indonesia.",
-        sumber: "https://asset.kompas.com/crops/CnVutHm9LMj8Wp_F9-9fkqYkOhI=/203x225:749x589/750x500/data/photo/2022/12/09/6392a51cdec7d.jpg"
+        namaPakaian: "Teluk Belanga",
+        daerah: "Kepulauan Riau",
+        foto: TelukBelanga,
+        deskripsi: "Pakaian adat Teluk Belanga untuk laki-laki, disebut baju teluk belanga, memiliki model berkerah dan berkancing dengan kancing tep, kancing emas, atau kancing permata. Lengan bajunya lebar, agak longgar, dan panjangnya menutup pergelangan tangan. Pakaian ini menciptakan kesan elegan dan tradisional dalam busana Kepulauan Riau.",
+        sumber: "https://www.lazada.co.id/products/baju-teluk-belanga-melayu-laki-laki1stel-baju-teluk-belanga-melayu-i6868260440-s13587918351.html?spm=a2o4j.tm80150940.3312045370.1.5b9bWISLWISLJh.5b9bWISLWISLJh"
     },
-]
+];
