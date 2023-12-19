@@ -1,3 +1,4 @@
+import UleeBalang from '../assets/image/Ulee-Balang.svg'
 import TelukBelanga from '../assets/image/Teluk-Belanga.svg'
 import BundoKanduang from '../assets/image/Bundo-Kanduang.svg'
 import Ulos from '../assets/image/Ulos.svg'
@@ -7,7 +8,7 @@ export const listPakaian = [
     {
         namaPakaian: "Ulee Balang",
         daerah: "Aceh",
-        foto: TelukBelanga,
+        foto: UleeBalang,
         deskripsi: "Pakaian adat Ulee Balang merupakan warisan budaya Aceh yang kaya akan detail dan simbol. Untuk pria, terdapat Linto Baro yang terdiri dari meukeutop sebagai penutup kepala, meukasah sebagai baju dengan sulaman benang emas, dan celana cekak musang (sileuweu). Bagi wanita, terdapat Daro Baro dengan desain baju kurung yang dipengaruhi oleh budaya Melayu, Cina, dan Arab.",
         sumber: "https://asset.kompas.com/data/photo/buku/63c76684c838d.png"
     },
