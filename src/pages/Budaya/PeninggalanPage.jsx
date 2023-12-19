@@ -15,7 +15,7 @@ const LaguPage = () => {
     >
       {listPeninggalan.map((peninggalan, index) => (
         <ContentCard
-          jenis="Lagu khas"
+          jenis="Peninggalan"
           nama={peninggalan.namaPeninggalan}
           daerah={peninggalan.daerah}
           foto={peninggalan.foto}

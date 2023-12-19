@@ -14,7 +14,7 @@ const ExplorationPage = () => {
     }
   };
   return (
-    <div className="exploration-container">
+    <div id="exploration-container">
       <div className="nusantara-container">
         {explorationList.map((exploration, index) => (
           <div

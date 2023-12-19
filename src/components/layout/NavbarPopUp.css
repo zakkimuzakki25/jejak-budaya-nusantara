@@ -9,7 +9,7 @@
   box-sizing: border-box;
   background-color: var(--header-bg-color);
   color: var(--header-text-color);
-  padding: 10px 0px;
+  padding: 10px 0px 20px;
   z-index: 200;
   transform-origin: top;
   opacity: 1;

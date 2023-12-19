@@ -1,11 +1,12 @@
 import "./Home.css";
-import React, { useState } from "react";
 import petaIndonesia from "/src/assets/icon/petaIndonesia.svg";
 import maskot from "/src/assets/maskots/MaskotMain.svg";
 import ExploreButton from "../../components/button/ExploreButton";
 import HomeSlider from "../../components/slider/HomeSlider";
 import HomeAwan from "../../components/background/HomeAwan";
+import VectorArrow from "../../assets/support/VectorArrow.svg";
 import { sliderHome } from "../../data/home";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -35,7 +36,10 @@ function Home() {
         <div className="home-content">
           <div className="home-interesting-fact">
             <h1>Fakta Menarik</h1>
-            <h1>Lihat Semua</h1>
+            <Link className="link-path">
+              <p style={{margin: "0px"}}>lihat semua</p>
+              <img src={VectorArrow} style={{height: "fit-content"}}/>
+            </Link>
           </div>
           <div className="home-slide-fact">
             <HomeSlider data={sliderHome} />

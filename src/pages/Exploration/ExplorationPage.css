@@ -1,4 +1,4 @@
-.exploration-container {
+#exploration-container {
     padding: 0px 75px;
 }
 
@@ -20,6 +20,12 @@
   .content-nusantara .content {
     font-size: 20px;
     font-family: "Bree Serif";
+  }
+
+  .content-nusantara a:visited p {
+    text-decoration: underline;
+    color: var(--header-bg-color);
+    scale: 1.1;
   }
   
   .content-nusantara .link-path {
