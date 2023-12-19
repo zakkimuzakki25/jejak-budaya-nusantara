@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../../assets/logo/LogoWhite.svg";
 import "./Footer.css";
 import { listNavbar } from "../../data/NavbarPopUpList";
@@ -11,30 +10,34 @@ function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-section">
+
         <div className="footer-left">
           <img className="footer-logo" src={logo} alt="logo" />
           <Link >Tentang Kami</Link>
+          <Link >Hubungi Kami</Link>
         </div>
+
         <div className="footer-right">
           <div className="footer-navigator">
             {firstSection.map((item, index) => (
               <div key={index} className="slider-item">
-                <button href={item.path} className="slider-link">
+                <Link to={item.path} className="slider-link">
                   {item.nama}
-                </button>
+                </Link>
               </div>
             ))}
           </div>
           <div className="footer-navigator">
             {secondSection.map((item, index) => (
               <div key={index} className="slider-item">
-                <button href={item.path} className="slider-link">
+                <Link to={item.path} className="slider-link">
                   {item.nama}
-                </button>
+                </Link>
               </div>
             ))}
           </div>
         </div>
+
       </div>
 
       <h1 className="footer-copyright">
