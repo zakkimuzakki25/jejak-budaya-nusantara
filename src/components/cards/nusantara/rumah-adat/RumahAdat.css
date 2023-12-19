@@ -4,6 +4,7 @@
   top: 50%;
   right: 50px;
   transform: translateY(-50%);
+  animation: rumah-adat-animation 1s ease-out forwards;
 }
 
 .maskot-rumah-adat {
@@ -12,4 +13,18 @@
   top: 50%;
   left: 50px;
   transform: translateY(-50%);
+  animation: maskot-animation 1s ease-out forwards;
+}
+
+@keyframes rumah-adat-animation {
+  0% {
+    top: 50%;
+    right: 25%;
+    opacity: 0;
+  }
+  100% {
+    top: 50%;
+    right: 50px;
+    opacity: 1;
+  }
 }

@@ -1,16 +1,30 @@
 .candi-peninggalan {
-    position: absolute;
-    z-index: 0;
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+  animation: candi-peninggalan-animation 0.5s ease-out forwards;
+}
+
+.maskot-peninggalan-sejarah {
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  animation: maskot-animation 0.5s ease-out forwards;
+}
+
+@keyframes candi-peninggalan-animation {
+  0% {
+    top: 50%;
+    right: 25%;
+    opacity: 0;
+  }
+  100% {
     top: 50%;
     right: 50px;
-    transform: translateY(-50%);
+    opacity: 1;
   }
-  
-  .maskot-peninggalan-sejarah {
-    position: absolute;
-    z-index: 0;
-    top: 50%;
-    left: 50px;
-    transform: translateY(-50%);
-  }
-  
+}
