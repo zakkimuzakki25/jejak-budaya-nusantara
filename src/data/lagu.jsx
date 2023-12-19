@@ -1,43 +1,43 @@
-import mieAceh from '../assets/image/mie-aceh.svg'
-import rendang from '../assets/image/rendang.svg'
-import sotoLamongan from '../assets/image/soto-lamongan.svg'
-import sateMadura from '../assets/image/sate-madura.svg'
-import gudegJogja from '../assets/image/gudeg-jogja.svg'
+import BungongJempa from '../assets/image/Bungong-Jempa.svg';
+import Butet from '../assets/image/Butet.svg';
+import AyamDenLapeh from '../assets/image/Ayam-Den-Lapeh.svg';
+import Soleram from '../assets/image/Soleram.svg';
+import SelandangMayang from '../assets/image/Selandang-Mayang.svg';
 
 export const listLagu = [
-    {
-        namaLagu: "Mie Aceh",
-        daerah: "Aceh",
-        foto: mieAceh,
-        deskripsi: "Mie Aceh adalah sebuah hidangan mi khas dari Aceh yang begitu kaya akan cita rasa. Dikenal dengan sentuhan pedas yang khas, mi ini disajikan dengan kuah kental yang penuh dengan rempah-rempah, daging lembut, dan seafood yang melengkapi kelezatannya. Mie Aceh tidak hanya menggoda lidah dengan kepedasannya, tetapi juga memanjakan indera penciuman dengan aroma rempah yang khas. Dengan keunikan tersebut, hidangan ini menjadi favorit di seluruh Indonesia, mencerminkan keberagaman kuliner nusantara.",
-        sumber: "https://assets-pergikuliner.com/uploads/bootsy/image/7346/medium_mie_aceh_2.jpg"
-    },
-    {
-        namaLagu: "Rendang",
-        daerah: "Padang",
-        foto: rendang,
-        deskripsi: "Rendang adalah sebuah keajaiban kuliner dari Padang, Sumatera Barat, yang menyajikan sensasi kenikmatan dalam setiap gigitannya. Daging sapi yang dimasak dengan rempah-rempah khas Padang ini menghasilkan hidangan lezat yang begitu beraroma dan berbumbu. Dengan daging yang dimasak hingga empuk dan bumbu yang meresap, Rendang memberikan pengalaman makan yang tak terlupakan. Aromanya yang khas dan cita rasanya yang mendalam membuat Rendang menjadi salah satu masakan terenak di dunia, diakui bahkan sebagai hidangan khas Indonesia oleh banyak penikmat kuliner internasional.",
-        sumber: "https://www.astronauts.id/blog/wp-content/uploads/2023/03/Resep-Rendang-Daging-Sapi-Untuk-Lebaran-Gurih-dan-Nikmat-1200x675.jpg"
-    },
-    {
-        namaLagu: "Soto Lamongan",
-        daerah: "Lamongan",
-        foto: sotoLamongan,
-        deskripsi: "Soto Lamongan, hidangan khas Lamongan, Jawa Timur, merupakan perpaduan harmonis antara rasa gurih dan segar dalam sejumput hangatnya kuah. Dengan campuran daging ayam yang lembut, tauge yang segar, dan bumbu kacang yang khas, Soto Lamongan menghadirkan kenikmatan yang menggoda selera. Setiap sendokannya membangkitkan nostalgia akan kehangatan rumah, dan aroma rempah-rempahnya membuat hidangan ini tak terlupakan. Sajian ini menjadi pilihan yang sempurna untuk menyenangkan lidah dan memuaskan hasrat kuliner.",
-        sumber: "https://www.masakapahariini.com/wp-content/uploads/2019/11/shutterstock_1469046305.jpg"
-    },
-    {
-        namaLagu: "Sate Madura",
-        daerah: "Madura",
-        foto: sateMadura,
-        deskripsi: "Sate Madura adalah hidangan sate yang merupaka kebanggaan dari Pulau Madura, Jawa Timur. Daging ayam atau daging sapi yang ditusuk dan dipanggang dengan bumbu kacang khas Madura menciptakan cita rasa yang unik dan menggoda. Sate Madura tidak hanya memikat dengan kelembutan dagingnya, tetapi juga dengan kelezatan bumbu kacang yang disajikan bersama lontong. Hidangan ini mengajak penikmatnya untuk menjelajahi kekayaan rasa Indonesia melalui setiap tusukannya, menciptakan pengalaman kuliner yang tak terlupakan.",
-        sumber: "https://resepkoki.id/wp-content/uploads/2017/02/Resep-Sate-Ayam-Madura.jpg"
-    },
-    {
-        namaLagu: "Gudeg Jogja",
-        daerah: "Yogyakarta",
-        foto: gudegJogja,
-        deskripsi: "Gudeg Jogja, hidangan khas Yogyakarta, merupakan sebuah seni kuliner yang memadukan kelembutan nangka muda dengan kekayaan rempah-rempah. Dengan santan, gula merah, dan berbagai rempah pilihan, Gudeg Jogja menghasilkan hidangan yang lezat dan menggugah selera. Sajian ini tidak hanya mengundang dengan kelembutan nangka yang memanjakan lidah, tetapi juga aroma rempah yang begitu menggoda. Gudeg Jogja, disajikan dengan nasi, ayam, dan telur, membawa penikmatnya dalam perjalanan rasa yang memukau, memperkaya pengalaman kuliner Indonesia.",
-        sumber: "https://asset.kompas.com/crops/CnVutHm9LMj8Wp_F9-9fkqYkOhI=/203x225:749x589/750x500/data/photo/2022/12/09/6392a51cdec7d.jpg"
-    },
-]
+  {
+    namaLagu: "Bungong Jempa",
+    daerah: "Aceh",
+    foto: BungongJempa,
+    deskripsi: "Bungong Jempa adalah lagu daerah yang berasal dari Aceh. Lagu ini menceritakan tentang bunga cempaka yang sangat indah di Provinsi Aceh.",
+    sumber: "https://imgx.sonora.id/crop/0x0:0x0/700x465/photo/2020/03/26/4005935201.jpg"
+  },
+  {
+    namaLagu: "Butet",
+    daerah: "Sumatera Utara",
+    foto: Butet,
+    deskripsi: "Butet adalah lagu populer yang berasal dari Sumatera Utara. Kata 'butet' bermakna anak perempuan. Lagu ini berisi cerita tentang pesan rindu seorang ayah kepada anak perempuannya ketika dirinya sedang mengikuti perang.",
+    sumber: "https://t-2.tstatic.net/padang/foto/bank/images/tematik-25-12-21-8.jpg"
+  },
+  {
+    namaLagu: "Ayam Den Lapeh",
+    daerah: "Sumatera Barat",
+    foto: AyamDenLapeh,
+    deskripsi: "Ayam Den Lapeh adalah lagu daerah yang berasal dari Sumatera Barat. Lagu ini memiliki makna imbauan agar tidak terlalu larut dalam kesedihan dan menerima segala sesuatunya dengan lapang dada.",
+    sumber: "https://2.bp.blogspot.com/-xp77NmzIB2U/XYnd0Qr8b3I/AAAAAAAAEWQ/w5TzTkpCvC0qQypfPyf4NpewXu2T4I-AACLcBGAsYHQ/s1600/notasi-lagu-Ayam-Den-Lapeh-not-angkas-piano.jpg"
+  },
+  {
+    namaLagu: "Soleram",
+    daerah: "Riau",
+    foto: Soleram,
+    deskripsi: "Soleram adalah lagu daerah yang berasal dari Riau. Lagu ini berisi nasihat terkait adat istiadat dan agama agar selalu terjaga dengan baik.",
+    sumber: "https://www.riauonline.co.id/foto/bank/images2/Soleram.jpg"
+  },
+  {
+    namaLagu: "Selandang Mayang",
+    daerah: "Jambi",
+    foto: SelandangMayang,
+    deskripsi: "Selandang Mayang adalah lagu daerah yang berasal dari Jambi. Lagu ini mempunyai makna yang sangat mendalam tentang penggambaran kerja keras seseorang.",
+    sumber: "https://3.bp.blogspot.com/-xylp2-z4QTk/WrPdH32REEI/AAAAAAAABfk/-yPh4QU-0EkLG5ljOHa5kn09EaKSD_r3gCLcBGAs/s1600/Jambi%2B-%2BSelendang%2BMayang.jpeg"
+  },
+];
