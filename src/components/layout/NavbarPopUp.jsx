@@ -1,9 +1,16 @@
 import React from 'react';
-import "./NavbarPopUp.css";
+import './NavbarPopUp.css';
+import { useNavigate } from 'react-router-dom';
 
-const NavbarPopUp = ({ isVisible, items }) => {
+const NavbarPopUp = ({ isVisible, items, togglePopUp }) => {
+  const nav = useNavigate();
   const firstSection = items.slice(0, 5);
   const secondSection = items.slice(5);
+
+  const handleNavClick = (path) => {
+    nav(path);
+    togglePopUp(false)
+  };
 
   return (
     <div className={`navbar-popup-container ${isVisible ? 'show-popup' : ''}`}>
@@ -11,7 +18,7 @@ const NavbarPopUp = ({ isVisible, items }) => {
       <div className="popup-section">
         {firstSection.map((item, index) => (
           <div key={index} className="slider-item">
-            <button href={item.path} className="slider-link">
+            <button onClick={() => handleNavClick(item.path)} className="slider-link">
               {item.nama}
             </button>
           </div>
@@ -20,7 +27,7 @@ const NavbarPopUp = ({ isVisible, items }) => {
       <div className="popup-section">
         {secondSection.map((item, index) => (
           <div key={index} className="slider-item">
-            <button href={item.path} className="slider-link">
+            <button onClick={() => handleNavClick(item.path)} className="slider-link">
               {item.nama}
             </button>
           </div>
@@ -28,6 +35,6 @@ const NavbarPopUp = ({ isVisible, items }) => {
       </div>
     </div>
   );
-}
+};
 
 export default NavbarPopUp;

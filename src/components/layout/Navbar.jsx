@@ -45,7 +45,7 @@
         </button>
         
         {isPopUpVisible && (
-          <NavbarPopUp isVisible={isPopUpVisible} items={listNavbar} />
+          <NavbarPopUp isVisible={isPopUpVisible} items={listNavbar} togglePopUp={togglePopUp}/>
         )}
       </div>
     );
