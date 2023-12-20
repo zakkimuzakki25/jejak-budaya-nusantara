@@ -44,7 +44,7 @@ const FaktaPage = () => {
             />
           ))}
         </div>
-        <UpButton posisi={"left"}/>
+        <UpButton posisi={"right"}/>
         </div>
       );
 }
