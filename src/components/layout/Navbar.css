@@ -45,7 +45,44 @@
     all: unset;
 }
 
+.navbar-container button img {
+    width: 100%;
+    height: 100%;
+}
+
 .navbar-container button:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 600px) {
+    .navbar-container {
+        top: 0;
+        padding: 20px;
+    }
+
+    .navbar-home-button, .navbar-container button {
+        width: 25px;
+        height: 25px;
+    }
+
+    .logo-jbn {
+        width: 150px;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 1024px) {
+    .navbar-container {
+        top: 0;
+        padding: 40px;
+    }
+
+    .navbar-home-button, .navbar-container button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo-jbn {
+        width: 230px;
+    }
+  }

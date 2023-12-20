@@ -151,3 +151,46 @@
     transform: scaleX(-1) rotate(-15deg);
   }
 }
+
+@media screen and (max-width: 600px) {
+  .button-explore-link {
+    font-size: 10px;
+    padding: 5px 25px;
+    border-radius: 12px;
+  }
+
+  .sayap-bawah-kiri,
+  .sayap-bawah-kanan {
+    width: 70px;
+  }
+
+  .sayap-atas-kiri,
+  .sayap-atas-kanan {
+    width: 70px;
+  }
+
+  .sayap-atas-kiri {
+    top: -30px;
+    left: -35px;
+  }
+  
+  .sayap-bawah-kiri {
+    bottom: -5px;
+    left: -40px;
+  }
+  
+  .sayap-atas-kanan {
+    top: -30px;
+    right: -35px;
+    transform: scaleX(-1);
+  }
+  
+  .sayap-bawah-kanan {
+    bottom: -5px;
+    right: -40px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+
+}

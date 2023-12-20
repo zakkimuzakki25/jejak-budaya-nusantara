@@ -10,6 +10,8 @@ import { faktaMenarik } from "../../data/faktaMenarik";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import BubbleChat from "../../components/bubbleChat/BubbleChat";
+import Navbar from "../../components/layout/Navbar";
+import Footer from "../../components/layout/Footer";
 
 function Home() {
   const token = window.localStorage.getItem("tokenJBN");
@@ -36,7 +38,8 @@ function Home() {
   }, [isLoaded2]);
 
   return (
-    <div>
+    <div style={{overflow: "hidden"}}>
+      <Navbar />
       <div className="home">
         <div className="home-explore">
           <div className="home-map">
@@ -102,6 +105,7 @@ function Home() {
       ) : (
         <img className="home-maskot" src={maskot} alt="maskot" />
       )}
+      <Footer />
     </div>
   );
 }

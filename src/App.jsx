@@ -1,7 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import Footer from "./components/layout/Footer";
-import Navbar from "./components/layout/Navbar";
 import ExplorationPage from "./pages/Exploration/ExplorationPage";
 import RumahPage from "./pages/Budaya/RumahPage";
 import PakaianPage from "./pages/Budaya/PakaianPage";
@@ -19,7 +17,6 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/eksplorasi" element={<ExplorationPage />} />
@@ -35,7 +32,6 @@ const App = () => {
           <Route path="/tentang-kami" element={<TentangKami />} />
           <Route path="/fakta-menarik" element={<FaktaPage />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
     </div>
   );

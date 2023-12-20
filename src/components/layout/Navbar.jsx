@@ -39,7 +39,7 @@
         <Link to="/">
           <img className="navbar-home-button" src={home} alt="home button" />
         </Link>
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" className="logo-jbn"/>
         <button ref={buttonRef} onClick={togglePopUp}>
           <img src={navigasi} alt="navigasi button" />
         </button>
