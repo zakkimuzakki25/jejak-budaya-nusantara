@@ -17,7 +17,7 @@ function Footer() {
 
         <div className="footer-middle">
           <h3 >JBN</h3>
-          <Link >Tentang Kami</Link>
+          <Link to={"/tentang-kami"}>Tentang Kami</Link>
           <Link >Hubungi Kami</Link>
           <Link >Media Sosial</Link>
         </div>
