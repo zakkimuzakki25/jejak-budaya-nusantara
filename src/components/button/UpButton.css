@@ -2,7 +2,7 @@
     position: fixed;
     height: fit-content;
     bottom: 40px;
-    left: 40px;
+    left: 50px;
     transform: scale(1.5);
   }
 
@@ -10,7 +10,7 @@
     position: fixed;
     height: fit-content;
     bottom: 40px;
-    right: 40px;
+    right: 50px;
     transform: scale(1.5);
   }
   
