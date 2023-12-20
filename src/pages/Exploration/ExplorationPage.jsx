@@ -8,6 +8,7 @@ import UpButton from "../../components/button/UpButton";
 import BubbleChat from "../../components/bubbleChat/BubbleChat";
 
 const ExplorationPage = () => {
+  const token = window.localStorage.getItem("tokenJBN");
   const [isLoaded, setIsLoaded] = useState(true);
   const [isLoaded2, setIsLoaded2] = useState(false);
 
@@ -22,6 +23,14 @@ const ExplorationPage = () => {
     window.localStorage.setItem(
       "listExplorationJejakNusantara",
       [...listWindow, data].join("#")
+    );
+    console.log(listWindow);
+  };
+
+  const endHandler = () => {
+    window.localStorage.setItem(
+      "tokenJBN",
+      true
     );
     console.log(listWindow);
   };
@@ -114,7 +123,7 @@ const ExplorationPage = () => {
         </div>
       ))}
 
-      {isLoaded ? (
+      {isLoaded && !token? (
         <>
           <BubbleChat
             message={
@@ -131,6 +140,7 @@ const ExplorationPage = () => {
           <BubbleChat
             message={"Bagian ini digunakan untuk eksplorasi"}
             setBubbleChat={setIsLoaded2}
+            handleClick={endHandler}
             zIndex={97}
           />
           <img className="home-maskot" src={maskotAwan} alt="maskot" />

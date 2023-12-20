@@ -12,6 +12,7 @@ import { useEffect, useState } from "react";
 import BubbleChat from "../../components/bubbleChat/BubbleChat";
 
 function Home() {
+  const token = window.localStorage.getItem("tokenJBN");
   const [isLoaded, setIsLoaded] = useState(true);
   const [isLoaded2, setIsLoaded2] = useState(false);
 
@@ -72,7 +73,7 @@ function Home() {
         </div>
       </div>
 
-      {isLoaded ? (
+      {isLoaded && !token ? (
         <>
           <BubbleChat
             message={
