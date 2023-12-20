@@ -123,11 +123,11 @@ const ExplorationPage = () => {
         </div>
       ))}
 
-      {isLoaded && !token? (
+      {isLoaded && !token?? (
         <>
           <BubbleChat
             message={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut mi augue. Etiam dapibus maximus dui sit amet egestas. Vestibulum condimentum orci sed sem egestas molestie."
+              "Selamat datang di Halaman Eksplorasi! Ini adalah tempat di mana Anda dapat memulai perjalanan untuk menemukan dan merasakan keindahan dari keberagaman budaya Nusantara."
             }
             setBubbleChat={setIsLoaded}
             handleClick={() => setIsLoaded2(true)}
@@ -138,7 +138,7 @@ const ExplorationPage = () => {
       ) : isLoaded2 && (
         <>
           <BubbleChat
-            message={"Bagian ini digunakan untuk eksplorasi"}
+            message={"Jangan lewatkan fitur Navigasi Cepat! Ini adalah alat praktis yang akan membantu Anda menjelajah dengan mudah di sepanjang bagian eksplorasi. Bagian ini akan bewarna setelah Anda menjelajahi keunikan pada bagian tertentu, menciptakan petualangan visual yang menarik seiring perjalanan eksplorasi Anda"}
             setBubbleChat={setIsLoaded2}
             handleClick={endHandler}
             zIndex={97}

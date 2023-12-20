@@ -73,11 +73,11 @@ function Home() {
         </div>
       </div>
 
-      {isLoaded && !token ? (
+      {isLoaded  && !token? (
         <>
           <BubbleChat
             message={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut mi augue. Etiam dapibus maximus dui sit amet egestas. Vestibulum condimentum orci sed sem egestas molestie."
+              "Selamat datang di website Jejak Budaya Nusantara, Di sini kami mengundang Anda untuk menjelajahi keindahan dan keanekaragaman budaya Indonesia. Temukan warisan seni, tradisi dan cerita yang membuat setiap sudut nusantara begitu unik. Bersiaplah untuk merasakan keajaiban budaya yang tersembunyi!"
             }
             setBubbleChat={setIsLoaded}
             handleClick={() => setIsLoaded2(true)}
@@ -88,7 +88,7 @@ function Home() {
       ) : isLoaded2 ? (
         <>
           <BubbleChat
-            message={"Bagian ini digunakan untuk eksplorasi"}
+            message={"Di sini, Anda dapat memulai perjalanan virtual Anda untuk menjelajahi keberagaman budaya Nusantara. Temukan cerita-cerita menarik, warisan seni yang unik, dan tradisi-tradisi yang memperkaya kehidupan masyarakat Indonesia.Bagian ini digunakan untuk eksplorasi"}
             setBubbleChat={setIsLoaded2}
             zIndex={97}
           />
