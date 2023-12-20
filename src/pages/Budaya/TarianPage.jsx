@@ -32,8 +32,19 @@ const TarianPage = () => {
         flexDirection: "row",
         backgroundColor: "var(--header-bg-color)",
       }}>
-      {listTarian.map((rumah, index) => (
-        <NavBudaya daerah={rumah.daerah} key={index} />
+      {listTarian.map((tarian, index) => (
+        <>
+          {index != 0 && (
+            <div style={{
+              width: "2px",
+              height: "25px",
+              borderRadius: "50vh",
+              backgroundColor: "var(--accent-color-secondary-600)",
+              color: "white",
+            }}></div>
+          )}
+          <NavBudaya daerah={tarian.daerah} key={index} />
+        </>
       ))}
       </div>
       <div
