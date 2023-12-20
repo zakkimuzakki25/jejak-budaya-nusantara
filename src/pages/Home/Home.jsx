@@ -5,7 +5,7 @@ import ExploreButton from "../../components/button/ExploreButton";
 import HomeSlider from "../../components/slider/HomeSlider";
 import HomeAwan from "../../components/background/HomeAwan";
 import VectorArrow from "../../assets/support/VectorArrow.svg";
-import { sliderHome } from "../../data/home";
+import { faktaMenarik } from "../../data/faktaMenarik";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
@@ -50,7 +50,7 @@ function Home() {
             </Link>
           </div>
           <div className="home-slide-fact">
-            <HomeSlider data={sliderHome} />
+            <HomeSlider data={faktaMenarik} />
           </div>
         </div>
       </div>

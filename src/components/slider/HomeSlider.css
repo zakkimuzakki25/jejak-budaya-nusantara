@@ -25,6 +25,7 @@
 }
 
 .homeslider{
+    align-items: flex-end;
     position: relative;
     display: flex;
     justify-content: center;
@@ -35,9 +36,9 @@
 
 .slide{
     border-radius: 0.5rem;
-    box-shadow: 0px 0px 7px #666;
     width: fit-content;
-    height: 100%;
+    height: fit-content;
+    overflow: hidden;
 }
 
 .slide-hidden{
