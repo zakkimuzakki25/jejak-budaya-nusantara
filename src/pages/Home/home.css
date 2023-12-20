@@ -9,6 +9,7 @@
   --color-primary-800: #0A2900;
   --accent-color-main: #fc3903;
   --accent-color-secondary: #f3ca76;
+  --accent-color-secondary-50: #FBEDD1;
   --accent-color-secondary-200: #F3CA76;
   --accent-color-secondary-300: #EFB849;
   --accent-color-secondary-400: #EBA71C;
@@ -140,6 +141,7 @@
   position: fixed;
   bottom: 10px;
   right: 10px;
+  z-index: 100;
 }
 
 .home-slide-fact{
