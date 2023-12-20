@@ -21,13 +21,12 @@ function Home() {
             <img src={petaIndonesia} alt="Peta Indonesia" />
           </div>
           <div className="home-intro">
-            <h1>What is Lorem Ipsum?</h1>
+            <h1>Selamat Datang di Eksplorasi Budaya Indonesia</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              ut mi augue. Etiam dapibus maximus dui sit amet egestas.
-              Vestibulum condimentum orci sed sem egestas molestie. Sed
-              tristique dui eros, in lacinia tellus pulvinar in. Maecenas
-              suscipit ut ligula at pretium.
+            Kami mengundang Anda untuk
+            menemukan dan memahami keindahan warisan budaya, seni, dan tradisi yang
+            telah menjadi bagian tak terpisahkan dari kehidupan masyarakat
+            Indonesia.
             </p>
           </div>
         </div>
