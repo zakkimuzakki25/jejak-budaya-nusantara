@@ -3,6 +3,7 @@ import ContentCard from "../../components/cards/content/ContentCard";
 import { listSenjata } from "../../data/senjata.jsx";
 import { useEffect } from "react";
 import maskot from "/src/assets/maskots/MaskotSenjata.svg";
+import UpButton from "../../components/button/UpButton";
 
 const SenjataPage = () => {
   useEffect(() => {
@@ -78,6 +79,7 @@ const SenjataPage = () => {
         }}
       />
     </div>
+    <UpButton posisi={"left"}/>
     </div>
   );
 };

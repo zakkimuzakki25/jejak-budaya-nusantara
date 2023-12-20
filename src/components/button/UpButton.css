@@ -1,8 +1,16 @@
-.up-button-container {
+.up-button-container-left {
     position: fixed;
     height: fit-content;
     bottom: 40px;
-    right: 50px;
+    left: 40px;
+    transform: scale(1.5);
+  }
+
+  .up-button-container-right {
+    position: fixed;
+    height: fit-content;
+    bottom: 40px;
+    right: 40px;
     transform: scale(1.5);
   }
   

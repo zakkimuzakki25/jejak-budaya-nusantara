@@ -5,7 +5,7 @@ import BatikAwanv2 from '../../assets/support/BatikAwan-v2.svg';
 import BatikAwan from '../../assets/support/BatikAwan.svg';
 
 
-const UpButton = () => {
+const UpButton = ({posisi}) => {
   const handleScrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -14,7 +14,7 @@ const UpButton = () => {
   };
 
   return (
-    <div className="up-button-container">
+    <div className={`${posisi == 'left' ? "up-button-container-left" : "up-button-container-right"}`}>
       <button className="up-button" onClick={handleScrollToTop}>
         <img className="up-button-img" src={ButtonUp} alt="Scroll to Top" />
         <img className="up-button-BatikAwanv2" src={BatikAwanv2} alt="Scroll to Top" />

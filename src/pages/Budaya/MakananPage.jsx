@@ -3,6 +3,7 @@ import ContentCard from "../../components/cards/content/ContentCard";
 import { listMakanan } from "../../data/makanan.jsx";
 import { useEffect } from "react";
 import maskot from "/src/assets/maskots/MaskotFoodie.svg";
+import UpButton from "../../components/button/UpButton";
 
 const MakananPage = () => {
   useEffect(() => {
@@ -78,6 +79,7 @@ const MakananPage = () => {
         }}
       />
     </div>
+    <UpButton posisi={"left"}/>
     </div>
   );
 };

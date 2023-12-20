@@ -3,6 +3,7 @@ import ContentCard from "../../components/cards/content/ContentCard";
 import { listUpacara } from "../../data/upacara.jsx";
 import { useEffect } from "react";
 import maskot from "/src/assets/maskots/MaskotUpacara.svg";
+import UpButton from "../../components/button/UpButton";
 
 const UpacaraPage = () => {
   useEffect(() => {
@@ -78,6 +79,7 @@ const UpacaraPage = () => {
         }}
       />
     </div>
+    <UpButton posisi={"left"}/>
     </div>
   );
 };

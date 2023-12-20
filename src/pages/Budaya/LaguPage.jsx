@@ -3,6 +3,7 @@ import ContentCard from "../../components/cards/content/ContentCard";
 import { listLagu } from "../../data/lagu.jsx";
 import { useEffect } from "react";
 import maskot from "/src/assets/maskots/MaskotMusician.svg";
+import UpButton from "../../components/button/UpButton";
 
 const LaguPage = () => {
   useEffect(() => {
@@ -78,6 +79,7 @@ const LaguPage = () => {
         }}
       />
     </div>
+    <UpButton posisi={"left"}/>
     </div>
   );
 };

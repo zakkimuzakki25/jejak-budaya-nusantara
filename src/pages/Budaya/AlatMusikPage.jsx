@@ -3,6 +3,7 @@ import ContentCard from "../../components/cards/content/ContentCard";
 import { listAlatMusik } from "../../data/alat-musik.jsx";
 import maskot from "/src/assets/maskots/MaskotAlatMusik.svg";
 import { useEffect } from "react";
+import UpButton from "../../components/button/UpButton";
 
 const AlatMusikPage = () => {
   useEffect(() => {
@@ -78,6 +79,7 @@ const AlatMusikPage = () => {
         }}
       />
     </div>
+    <UpButton posisi={"left"}/>
     </div>
   );
 };
