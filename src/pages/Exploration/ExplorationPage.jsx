@@ -59,16 +59,8 @@ const ExplorationPage = () => {
 
               {/* content */}
               <div className="content-nusantara">
-                <div className="title">
-                  Lorem ipsum dolor sit amet, consectetur
-                </div>
-                <div className="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer ut mi augue. Etiam dapibus maximus dui sit amet
-                  egestas. Vestibulum condimentum orci sed sem egestas molestie.
-                  Sed tristique dui eros, in lacinia tellus pulvinar in.
-                  Maecenas suscipit ut ligula at pretium.
-                </div>
+                <div className="title">{exploration.header}</div>
+                <div className="content">{exploration.text}</div>
                 <Link
                   onClick={() => clickHandler(exploration.id)}
                   to={exploration.path}
@@ -93,16 +85,8 @@ const ExplorationPage = () => {
                   textAlign: "right",
                 }}
               >
-                <div className="title">
-                  Lorem ipsum dolor sit amet, consectetur
-                </div>
-                <div className="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer ut mi augue. Etiam dapibus maximus dui sit amet
-                  egestas. Vestibulum condimentum orci sed sem egestas molestie.
-                  Sed tristique dui eros, in lacinia tellus pulvinar in.
-                  Maecenas suscipit ut ligula at pretium.
-                </div>
+                <div className="title">{exploration.header}</div>
+                <div className="content">{exploration.text}</div>
                 <Link
                   onClick={() => clickHandler(exploration.id)}
                   to={exploration.path}
