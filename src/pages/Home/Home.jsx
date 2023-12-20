@@ -13,11 +13,16 @@ import BubbleChat from "../../components/bubbleChat/BubbleChat";
 
 function Home() {
   const token = window.localStorage.getItem("tokenJBN");
-  const [isLoaded, setIsLoaded] = useState(true);
+  const date = new Date(Date.now());
+  const formattedDate = `${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()}`;
+  const [isLoaded, setIsLoaded] = useState(token != formattedDate ? true : false);
   const [isLoaded2, setIsLoaded2] = useState(false);
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    if (token !== formattedDate) {
+      window.localStorage.setItem("listExplorationJejakNusantara", "");
+    }
   }, []);
 
   useEffect(() => {
@@ -38,9 +43,9 @@ function Home() {
             <img src={petaIndonesia} alt="Peta Indonesia" />
           </div>
           <div className="home-intro">
-            <h1>Selamat Datang di Eksplorasi Budaya Indonesia</h1>
+            <h1>Selamat Datang di JBN</h1>
             <p>
-              Kami mengundang Anda untuk menemukan dan memahami keindahan
+              Kami mengajak Anda untuk menemukan dan memahami keindahan
               warisan budaya, seni, dan tradisi yang telah menjadi bagian tak
               terpisahkan dari kehidupan masyarakat Indonesia.
             </p>
@@ -73,11 +78,11 @@ function Home() {
         </div>
       </div>
 
-      {isLoaded  && !token? (
+      {isLoaded ? (
         <>
           <BubbleChat
             message={
-              "Selamat datang di website Jejak Budaya Nusantara, Di sini kami mengundang Anda untuk menjelajahi keindahan dan keanekaragaman budaya Indonesia. Temukan warisan seni, tradisi dan cerita yang membuat setiap sudut nusantara begitu unik. Bersiaplah untuk merasakan keajaiban budaya yang tersembunyi!"
+              "Halo penjelajah! Selamat datang di website Jejak Budaya Nusantara. Kenalin aku adalah Nusa. Di sini, aku akan memandu kamu untuk menjelajahi keindahan dan keanekaragaman budaya Indonesia."
             }
             setBubbleChat={setIsLoaded}
             handleClick={() => setIsLoaded2(true)}
@@ -88,7 +93,7 @@ function Home() {
       ) : isLoaded2 ? (
         <>
           <BubbleChat
-            message={"Di sini, Anda dapat memulai perjalanan virtual Anda untuk menjelajahi keberagaman budaya Nusantara. Temukan cerita-cerita menarik, warisan seni yang unik, dan tradisi-tradisi yang memperkaya kehidupan masyarakat Indonesia.Bagian ini digunakan untuk eksplorasi"}
+            message={"Dengan mengklik bagian ini, kamu dapat memulai perjalanan virtual kamu untuk menjelajahi keberagaman budaya Nusantara. Temukan cerita-cerita menarik, warisan seni yang unik, dan tradisi-tradisi yang memperkaya kehidupan masyarakat Indonesia.Bagian ini digunakan untuk eksplorasi"}
             setBubbleChat={setIsLoaded2}
             zIndex={97}
           />

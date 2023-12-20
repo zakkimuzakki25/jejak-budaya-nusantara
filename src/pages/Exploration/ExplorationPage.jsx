@@ -9,7 +9,9 @@ import BubbleChat from "../../components/bubbleChat/BubbleChat";
 
 const ExplorationPage = () => {
   const token = window.localStorage.getItem("tokenJBN");
-  const [isLoaded, setIsLoaded] = useState(true);
+  const date = new Date(Date.now());
+  const formattedDate = `${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()}`;
+  const [isLoaded, setIsLoaded] = useState(token != formattedDate ? true : false);
   const [isLoaded2, setIsLoaded2] = useState(false);
 
   useEffect(() => {
@@ -24,15 +26,17 @@ const ExplorationPage = () => {
       "listExplorationJejakNusantara",
       [...listWindow, data].join("#")
     );
-    console.log(listWindow);
   };
 
   const endHandler = () => {
+    const date = new Date(Date.now());
+
+    const formattedDate = `${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()}`;
+
     window.localStorage.setItem(
       "tokenJBN",
-      true
+      formattedDate
     );
-    console.log(listWindow);
   };
 
   const scrollToSection = (sectionId) => {
@@ -123,11 +127,11 @@ const ExplorationPage = () => {
         </div>
       ))}
 
-      {isLoaded && !token? (
+      {isLoaded ? (
         <>
           <BubbleChat
             message={
-              "Selamat datang di Halaman Eksplorasi! Ini adalah tempat di mana Anda dapat memulai perjalanan untuk menemukan dan merasakan keindahan dari keberagaman budaya Nusantara."
+              "Selamat datang di Halaman Eksplorasi! Ini adalah tempat di mana kamu dapat memulai perjalanan untuk menemukan dan merasakan keindahan dari keberagaman budaya Nusantara."
             }
             setBubbleChat={setIsLoaded}
             handleClick={() => setIsLoaded2(true)}
@@ -138,7 +142,7 @@ const ExplorationPage = () => {
       ) : isLoaded2 && (
         <>
           <BubbleChat
-            message={"Jangan lewatkan fitur Navigasi Cepat! Ini adalah alat praktis yang akan membantu Anda menjelajah dengan mudah di sepanjang bagian eksplorasi. Bagian ini akan bewarna setelah Anda menjelajahi keunikan pada bagian tertentu, menciptakan petualangan visual yang menarik seiring perjalanan eksplorasi Anda"}
+            message={"Ini adalah Fitur Navigasi Cepat! Alat praktis ini akan membantu kamu menjelajah dengan mudah di sepanjang bagian eksplorasi. Bagian ini akan terasa seperti sebuah puzzle yang berwarna setelah kamu menjelajahi keunikan pada setiap bagian. Segera lengkapi puzzle dan ciptakan petualangan visual yang menarik dari perjalanan eksplorasimu."}
             setBubbleChat={setIsLoaded2}
             handleClick={endHandler}
             zIndex={97}
