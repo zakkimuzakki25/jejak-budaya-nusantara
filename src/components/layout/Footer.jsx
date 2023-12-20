@@ -10,20 +10,25 @@ function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-section">
-
         <div className="footer-left">
           <img className="footer-logo" src={logo} alt="logo" />
         </div>
 
         <div className="footer-middle">
-          <h3 >JBN</h3>
+          <h3>JBN</h3>
           <Link to={"/tentang-kami"}>Tentang Kami</Link>
-          <Link >Hubungi Kami</Link>
-          <Link >Media Sosial</Link>
+          <Link>Hubungi Kami</Link>
+          <Link
+            to="https://www.instagram.com/jejakbudayanusantara?igshid=OGQ5ZDc2ODk2ZA=="
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Media Sosial
+          </Link>
         </div>
 
         <div className="footer-right">
-          <h3 >Eksplorasi Budaya</h3>
+          <h3>Eksplorasi Budaya</h3>
           <div className="footer-navigator">
             {firstSection.map((item, index) => (
               <div key={index} className="slider-item">
@@ -43,7 +48,6 @@ function Footer() {
             ))}
           </div>
         </div>
-
       </div>
 
       <h1 className="footer-copyright">
