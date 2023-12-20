@@ -21,7 +21,7 @@ const RumahPage = () => {
         fontFamily: "Finger Paint",
         fontSize: "22px",
         fontWeight: "200"
-      }}>Daftar Makanan Khas Daerah di Indonesia</h1>
+      }}>Daftar Rumah Adat Daerah di Indonesia</h1>
       <div style={{
         display: "flex",
         flexWrap: "wrap",
@@ -33,7 +33,18 @@ const RumahPage = () => {
         backgroundColor: "var(--header-bg-color)",
       }}>
       {listRumahAdat.map((rumah, index) => (
-        <NavBudaya daerah={rumah.daerah} key={index} />
+        <>
+          {index != 0 && (
+            <div style={{
+              width: "2px",
+              height: "25px",
+              borderRadius: "50vh",
+              backgroundColor: "var(--accent-color-secondary-600)",
+              color: "white",
+            }}></div>
+          )}
+          <NavBudaya daerah={rumah.daerah} key={index} />
+        </>
       ))}
       </div>
       <div

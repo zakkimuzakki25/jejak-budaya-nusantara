@@ -32,8 +32,19 @@ const SenjataPage = () => {
         flexDirection: "row",
         backgroundColor: "var(--header-bg-color)",
       }}>
-      {listSenjata.map((rumah, index) => (
-        <NavBudaya daerah={rumah.daerah} key={index} />
+      {listSenjata.map((senjata, index) => (
+        <>
+          {index != 0 && (
+            <div style={{
+              width: "2px",
+              height: "25px",
+              borderRadius: "50vh",
+              backgroundColor: "var(--accent-color-secondary-600)",
+              color: "white",
+            }}></div>
+          )}
+          <NavBudaya daerah={senjata.daerah} key={index} />
+        </>
       ))}
       </div>
       <div

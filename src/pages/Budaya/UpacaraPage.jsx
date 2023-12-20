@@ -32,8 +32,19 @@ const UpacaraPage = () => {
         flexDirection: "row",
         backgroundColor: "var(--header-bg-color)",
       }}>
-      {listUpacara.map((rumah, index) => (
-        <NavBudaya daerah={rumah.daerah} key={index} />
+      {listUpacara.map((upacara, index) => (
+        <>
+          {index != 0 && (
+            <div style={{
+              width: "2px",
+              height: "25px",
+              borderRadius: "50vh",
+              backgroundColor: "var(--accent-color-secondary-600)",
+              color: "white",
+            }}></div>
+          )}
+          <NavBudaya daerah={upacara.daerah} key={index} />
+        </>
       ))}
       </div>
       <div
