@@ -7,7 +7,7 @@ import KerisBengkulu from "../assets/image/Keris-Bengkulu.svg";
 export const listSenjata = [
   {
     namaSenjata: "Pedang Jenawi",
-    asal: "Riau",
+    daerah: "Riau",
     foto: PedangJenawi,
     deskripsi:
       "Pedang Jenawi, senjata tradisional Riau, mirip dengan pedang moor dari Arab. Memiliki bilah bermata satu sepanjang satu meter dengan ujung lancip dan ramping.",

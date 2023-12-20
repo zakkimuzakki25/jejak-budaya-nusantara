@@ -1,0 +1,12 @@
+.container-nav-budaya {
+    padding: 20px;
+}
+
+.daerah-nav-budaya h2 {
+    margin: 5px 30px;
+    color: white;
+    font-family: "Finger Paint";
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+}
