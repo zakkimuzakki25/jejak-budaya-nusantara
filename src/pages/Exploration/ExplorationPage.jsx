@@ -108,7 +108,7 @@ const ExplorationPage = () => {
           )}
         </div>
       ))}
-      <UpButton />
+      <UpButton posisi={"right"}/>
     </div>
   );
 };

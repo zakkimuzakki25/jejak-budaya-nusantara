@@ -3,6 +3,7 @@ import ContentCard from "../../components/cards/content/ContentCard";
 import { listTarian } from "../../data/tarian.jsx";
 import { useEffect } from "react";
 import maskot from "/src/assets/maskots/MaskotTari.svg";
+import UpButton from "../../components/button/UpButton";
 
 const TarianPage = () => {
   useEffect(() => {
@@ -78,6 +79,7 @@ const TarianPage = () => {
         }}
       />
     </div>
+    <UpButton posisi={"left"}/>
     </div>
   );
 };

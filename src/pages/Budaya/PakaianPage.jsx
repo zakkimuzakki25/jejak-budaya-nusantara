@@ -3,6 +3,7 @@ import ContentCard from "../../components/cards/content/ContentCard";
 import { listPakaian } from "../../data/pakaian.jsx";
 import { useEffect } from "react";
 import maskot from "/src/assets/maskots/MaskotMainSmile.svg";
+import UpButton from "../../components/button/UpButton";
 
 const PakaianPage = () => {
   useEffect(() => {
@@ -78,6 +79,7 @@ const PakaianPage = () => {
         }}
       />
     </div>
+    <UpButton posisi={"left"}/>
     </div>
   );
 };

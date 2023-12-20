@@ -3,6 +3,7 @@ import ContentCard from "../../components/cards/content/ContentCard";
 import { listPeninggalan } from "../../data/peninggalan.jsx";
 import { useEffect } from "react";
 import maskot from "/src/assets/maskots/MaskotPeninggalan.svg";
+import UpButton from "../../components/button/UpButton";
 
 const LaguPage = () => {
   useEffect(() => {
@@ -78,6 +79,7 @@ const LaguPage = () => {
         }}
       />
     </div>
+    <UpButton posisi={"left"}/>
     </div>
   );
 };

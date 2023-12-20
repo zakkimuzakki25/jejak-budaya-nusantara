@@ -3,6 +3,7 @@ import ContentCard from "../../components/cards/content/ContentCard";
 import { listRumahAdat } from "../../data/rumah.jsx";
 import { useEffect } from "react";
 import maskot from "/src/assets/maskots/MaskotRumah.svg";
+import UpButton from "../../components/button/UpButton";
 
 const RumahPage = () => {
   useEffect(() => {
@@ -78,6 +79,7 @@ const RumahPage = () => {
         }}
       />
     </div>
+    <UpButton posisi={"left"}/>
     </div>
     
   );
