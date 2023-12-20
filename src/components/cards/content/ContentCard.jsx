@@ -1,8 +1,9 @@
 import './ContentCard.css';
 
+// eslint-disable-next-line react/prop-types
 function ContentCard({ jenis, nama, daerah, foto, deskripsi, sumber }) {
   return (
-    <div className="container-content">
+    <div id={daerah} className="container-content">
       <div>
         <img src={foto} alt={nama} className="image-content" />
         <h4 className='source-image'>{sumber}</h4>

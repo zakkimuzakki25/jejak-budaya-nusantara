@@ -1,0 +1,23 @@
+.container-nav-budaya {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+}
+
+.container-nav-budaya:hover {
+    scale: 1.05;
+}
+
+.container-nav-budaya:hover a {
+    color: var(--accent-color-main);
+}
+
+.daerah-nav-budaya a {
+    text-decoration: none;
+    color: white;
+    font-family: "Finger Paint";
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+}

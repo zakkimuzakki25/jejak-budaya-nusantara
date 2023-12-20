@@ -7,21 +7,21 @@ import MuseumNasional from '../assets/image/Museum-Nasional-Indonesia.svg';
 export const listPeninggalan = [
     {
         namaPeninggalan: "Candi Borobudur",
-        daerah: "Magelang, Jawa Tengah",
+        daerah: "Magelang",
         foto: CandiBorobudur,
         deskripsi: "Candi Borobudur adalah candi Buddha terbesar di dunia, terletak di Magelang, Jawa Tengah. Candi ini merupakan warisan budaya dunia yang megah, dengan relief dan arsitektur yang memukau. Dibangun pada abad ke-9 oleh dinasti Syailendra, Candi Borobudur menjadi salah satu tujuan wisata sejarah terkenal di Indonesia.",
         sumber: "https://asset.kompas.com/crops/OSrnr3VxP9UPoRBWwdIFRfWmucs=/0x0:0x0/1200x800/data/photo/2022/06/05/629c81f0e7f11.jpeg"
     },
     {
         namaPeninggalan: "Tugu Pahlawan",
-        daerah: "Surabaya, Jawa Timur",
+        daerah: "Surabaya",
         foto: TuguPahlawan,
         deskripsi: "Tugu Pahlawan, juga dikenal sebagai Monumen Nasional, terletak di Surabaya, Jawa Timur. Monumen ini didedikasikan untuk mengenang para pahlawan yang gugur dalam Pertempuran Surabaya pada 10 November 1945. Dengan arsitektur yang mengesankan, Tugu Pahlawan menjadi simbol keberanian dan perjuangan bangsa Indonesia.",
         sumber: "https://akcdn.detik.net.id/community/media/visual/2022/11/02/sejarah-tugu-pahlawan-di-surabaya-ini-lokasi-monumen-pertempuran-10-november-1_169.jpeg?w=700&q=90"
     },
     {
         namaPeninggalan: "Benteng Kuto Besak",
-        daerah: "Palembang, Sumatera Selatan",
+        daerah: "Palembang",
         foto: BentengKutoBesak,
         deskripsi: "Benteng Kuto Besak adalah benteng peninggalan Kesultanan Palembang Darussalam, terletak di Palembang, Sumatera Selatan. Benteng ini memiliki sejarah panjang dan menjadi saksi bisu perkembangan sejarah kota Palembang. Dengan arsitektur yang kokoh, Benteng Kuto Besak menjadi destinasi bersejarah yang menarik.",
         sumber: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Kutobesak.jpg"

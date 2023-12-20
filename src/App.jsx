@@ -12,6 +12,7 @@ import LaguPage from "./pages/Budaya/LaguPage";
 import AlatMusikPage from "./pages/Budaya/AlatMusikPage";
 import MakananPage from "./pages/Budaya/MakananPage";
 import PeniggalanPage from "./pages/Budaya/PeninggalanPage";
+import TentangKami from "./pages/TentangKami/TentangKami";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
           <Route path="/eksplorasi/alat-musik" element={<AlatMusikPage />} />
           <Route path="/eksplorasi/makanan-khas" element={<MakananPage />} />
           <Route path="/eksplorasi/peninggalan-sejarah" element={<PeniggalanPage />} />
+          <Route path="/tentang-kami" element={<TentangKami />} />
         </Routes>
         <Footer />
       </BrowserRouter>
