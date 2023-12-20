@@ -23,12 +23,38 @@ const HomeSlider = ({ data }) => {
       <div className="homeslider">
         {data.map((item, idx) => {
           return (
-            <img
-              src={item.src}
-              alt={item.alt}
-              key={idx}
-              className={slide === idx ? "slide" : "slide slide-hidden"}
-            />
+            <>
+              <img
+                src={item.src}
+                alt={item.alt}
+                key={idx}
+                className={slide === idx ? "slide" : "slide slide-hidden"}
+                style={{
+                  width: "100%",
+                }}
+              />
+              <div style={{
+                  position: "absolute",
+                  left: "0px",
+                  bottom: "0px",
+                  zIndex : "1",
+                  height: "100%",
+                  width: "100%",
+                  backgroundImage: "linear-gradient(to top, black, transparent 30%)",
+                }}></div>
+              <div
+                style={{
+                  position: "absolute",
+                  left: "0px",
+                  bottom: "0px",
+                  color:"white",
+                  zIndex : "2",
+                }}
+                className={slide === idx ? "slide" : "slide slide-hidden"}
+              >
+                {item.deskripsi}
+              </div>
+            </>
           );
         })}
       </div>
