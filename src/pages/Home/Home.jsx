@@ -43,7 +43,7 @@ function Home() {
               fontSize: '25px',
               fontStyle: 'normal',
             }}>Fakta Menarik</h1>
-            <Link className="link-path">
+            <Link to={"/fakta-menarik"}className="link-path">
               <p style={{ margin: "0px" }}>lihat semua</p>
               <img src={VectorArrow} style={{ height: "fit-content" }} />
             </Link>
