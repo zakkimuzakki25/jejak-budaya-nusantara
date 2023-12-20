@@ -25,7 +25,6 @@
 }
 
 .homeslider{
-    align-items: flex-end;
     position: relative;
     display: flex;
     justify-content: center;
