@@ -42,7 +42,7 @@ const NavbarPopUp = ({ isVisible, items, togglePopUp }) => {
           ))}
         </div>
       </div>
-      <div className="button-explore-section-navbar">
+      <div className="button-explore-section-navbar" onClick={() => togglePopUp(false)}>
         <ExploreButton data={"EKSPLORASI"}/>
       </div>
     </div>
