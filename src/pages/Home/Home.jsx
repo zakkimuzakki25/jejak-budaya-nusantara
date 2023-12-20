@@ -18,6 +18,17 @@ function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  useEffect(() => {
+    if (isLoaded2) {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+    }
+  }, [isLoaded2]);
+
   return (
     <div>
       <div className="home">

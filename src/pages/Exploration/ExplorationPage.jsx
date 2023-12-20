@@ -1,11 +1,16 @@
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { explorationList } from "../../data/ExplorationPageList";
+import maskotAwan from "/src/assets/maskots/MaskotMainSmileWithCloud.svg";
 import VectorArrow from "../../assets/support/VectorArrow.svg";
 import "./ExplorationPage.css";
 import UpButton from "../../components/button/UpButton";
+import BubbleChat from "../../components/bubbleChat/BubbleChat";
 
 const ExplorationPage = () => {
+  const [isLoaded, setIsLoaded] = useState(true);
+  const [isLoaded2, setIsLoaded2] = useState(false);
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -108,7 +113,31 @@ const ExplorationPage = () => {
           )}
         </div>
       ))}
-      <UpButton posisi={"right"}/>
+
+      {isLoaded ? (
+        <>
+          <BubbleChat
+            message={
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut mi augue. Etiam dapibus maximus dui sit amet egestas. Vestibulum condimentum orci sed sem egestas molestie."
+            }
+            setBubbleChat={setIsLoaded}
+            handleClick={() => setIsLoaded2(true)}
+            zIndex={99}
+          />
+          <img className="home-maskot" src={maskotAwan} alt="maskot" />
+        </>
+      ) : isLoaded2 && (
+        <>
+          <BubbleChat
+            message={"Bagian ini digunakan untuk eksplorasi"}
+            setBubbleChat={setIsLoaded2}
+            zIndex={97}
+          />
+          <img className="home-maskot" src={maskotAwan} alt="maskot" />
+        </>
+      )}
+
+      <UpButton posisi={"right"} />
     </div>
   );
 };
