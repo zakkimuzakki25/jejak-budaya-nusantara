@@ -123,7 +123,7 @@ const ExplorationPage = () => {
         </div>
       ))}
 
-      {isLoaded && !token?? (
+      {isLoaded && !token? (
         <>
           <BubbleChat
             message={
