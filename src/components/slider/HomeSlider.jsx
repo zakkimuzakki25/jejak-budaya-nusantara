@@ -31,7 +31,7 @@ const HomeSlider = ({ data }) => {
                     width: "600px",
                     height: "400px",
                     backgroundImage:
-                      "linear-gradient(to top, black, transparent)",
+                      "linear-gradient(to top, black, transparent 80%)",
                     borderRadius: "0.5rem",
                   }}
                 >
