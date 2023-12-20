@@ -13,11 +13,17 @@ function Footer() {
 
         <div className="footer-left">
           <img className="footer-logo" src={logo} alt="logo" />
+        </div>
+
+        <div className="footer-middle">
+          <h3 >JBN</h3>
           <Link >Tentang Kami</Link>
           <Link >Hubungi Kami</Link>
+          <Link >Media Sosial</Link>
         </div>
 
         <div className="footer-right">
+          <h3 >Eksplorasi Budaya</h3>
           <div className="footer-navigator">
             {firstSection.map((item, index) => (
               <div key={index} className="slider-item">
