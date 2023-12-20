@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { explorationList } from "../../data/ExplorationPageList";
 import VectorArrow from "../../assets/support/VectorArrow.svg";
 import "./ExplorationPage.css";
+import UpButton from "../../components/button/UpButton";
 
 const ExplorationPage = () => {
   useEffect(() => {
@@ -123,6 +124,7 @@ const ExplorationPage = () => {
           )}
         </div>
       ))}
+      <UpButton />
     </div>
   );
 };
