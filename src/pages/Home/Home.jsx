@@ -6,6 +6,7 @@ import ExploreButton from "../../components/button/ExploreButton";
 import HomeSlider from "../../components/slider/HomeSlider";
 import VectorArrow from "../../assets/support/VectorArrow.svg";
 import { faktaMenarik } from "../../data/faktaMenarik";
+import { listChatMaskot } from "../../data/chatmaskot";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import BubbleChat from "../../components/bubbleChat/BubbleChat";
@@ -23,6 +24,7 @@ function Home() {
     token != formattedDate ? true : false
   );
   const [isLoaded2, setIsLoaded2] = useState(false);
+  const [isChatActive, setIsChatActive] = useState(false);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -134,7 +136,29 @@ function Home() {
           <img className="home-maskot active" src={maskotAwan} alt="maskot" />
         </>
       ) : (
-        <img className="home-maskot" src={maskot} alt="maskot" />
+        isChatActive ? (
+          <>
+            <BubbleChat 
+            message={
+              listChatMaskot[Math.floor(Math.random() * listChatMaskot.length)]
+            }
+            setBubbleChat={setIsChatActive}
+            zIndex={99}
+            isTutorial={false}
+            />
+            <img onClick={() => {
+              setIsChatActive(false)
+              setIsChatActive(true)
+            }} className="home-maskot active" src={maskotAwan} alt="maskot" />
+          </>
+        ) : (
+          <img
+            className="home-maskot"
+            src={maskot}
+            alt="maskot"
+            onClick={() => setIsChatActive(true)}
+          />
+        )
       )}
       <Footer />
     </div>

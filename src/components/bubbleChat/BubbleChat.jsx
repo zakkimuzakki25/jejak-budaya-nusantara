@@ -1,7 +1,7 @@
 import React from 'react';
 import './BubbleChat.css'; // Ubah nama file sesuai kebutuhan Anda
 
-const BubbleChat = ({ message, setBubbleChat, handleClick, zIndex }) => {
+const BubbleChat = ({ message, setBubbleChat, handleClick, zIndex, isTutorial }) => {
   const clickHandle = () => {
     setBubbleChat(false);
     handleClick();
@@ -10,14 +10,16 @@ const BubbleChat = ({ message, setBubbleChat, handleClick, zIndex }) => {
   return (
     <div
       onClick={clickHandle}
-      className="overlay"
+      className="overlay ${isTutorial ? 'tutorial' : ''}"
       style={{ zIndex: `${zIndex}` }}
     >
       <div className="bubble">
         <div>{message}</div>
       </div>
 
-      <div className="instruction">klik mana saja untuk keluar</div>
+      {isTutorial && (
+        <div className="instruction">klik mana saja untuk keluar</div>
+      )}
     </div>
   );
 };
