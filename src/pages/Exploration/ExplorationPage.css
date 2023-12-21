@@ -95,37 +95,39 @@
   .card-nusantara {
     width: 100%;
     border-bottom: 1px solid #000000;
+    padding: 0px 10px 20px 10px;
+    margin-bottom: 20px;
+  }
+
+  .card-nusantara.left {
+    flex-direction: column;
+  }
+
+  .card-nusantara.right {
+    flex-direction: column-reverse;
+  }
+
+  .content-nusantara {
+    padding: 0px 5px;
   }
 
   .content-nusantara .title {
-    font-size: 40px;
-    margin-bottom: 10px;
-    font-family: "Bree Serif";
+    font-size: 20px;
+    margin-bottom: 5px;
   }
 
   .content-nusantara .content {
-    font-size: 20px;
-    font-family: "Bree Serif";
-    line-height: 1.5;
-  }
-
-  .content-nusantara a:hover {
-    scale: 1.075;
+    font-size: 12px;
+    line-height: 1.4;
   }
 
   .content-nusantara .link-path {
-    margin-left: auto;
-    margin-top: 20px;
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap: 10px;
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-    font-size: 18px;
-    font-family: "Finger Paint";
+    gap: 5px;
+    font-size: 13px;
+  }
+
+  .content-nusantara .link-path img {
+    width: 7px
   }
 
   /* Nusantara Atas */
