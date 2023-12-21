@@ -9,46 +9,37 @@
   --bubble-chat-bg-color: #fbedd1;
   --footer-bg-color: #d39619;
 }
-.container{
-    padding: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
-    gap: 1rem;
+.container {
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  gap: 1rem;
 }
 
-.container-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.homeslider{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 600px;
-    height: 400px;
+.slide {
+  border-radius: 0.5rem;
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
 }
 
-.slide{
-    border-radius: 0.5rem;
-    width: fit-content;
-    height: fit-content;
-    overflow: hidden;
-}
-
-.slide-hidden{
-    display:none;
+.slide-hidden {
+  display: none;
 }
 
 .prev-btn,
 .next-btn {
   font-size: 100px;
   background-color: transparent;
-  color : black;
+  color: black;
   border: none;
   padding: 10px;
   cursor: pointer;
@@ -56,10 +47,76 @@
 
 .prev-btn {
   left: 0;
-  color:var(--footer-bg-color);
+  color: var(--footer-bg-color);
 }
 
 .next-btn {
   right: 0;
   color: var(--footer-bg-color);
+}
+
+.slide-container {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  background-image: linear-gradient(to top, black, transparent 80%);
+  border-radius: 0.5rem;
+}
+
+.slide-text {
+  padding: 15px 20px;
+  position: absolute;
+  text-align: justify;
+  bottom: 0px;
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: regular;
+}
+
+.slide-img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .prev-btn,
+  .next-btn {
+    font-size: 60px;
+    background-color: transparent;
+    color: var(--footer-bg-color);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .slide-container {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-image: linear-gradient(to top, black, transparent 80%);
+    border-radius: 0.5rem;
+  }
+
+  .slide-text {
+    padding: 15px 20px;
+    position: absolute;
+    text-align: justify;
+    bottom: 0px;
+    color: white;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: regular;
+  }
+
+  .slide-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
 }
