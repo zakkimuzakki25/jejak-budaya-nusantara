@@ -21,3 +21,33 @@
     font-weight: 200;
     cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+    .container-nav-budaya {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 10px;
+    }
+    
+    .container-nav-budaya:hover {
+        scale: 1.05;
+    }
+    
+    .container-nav-budaya:hover a {
+        color: var(--accent-color-main);
+    }
+    
+    .daerah-nav-budaya a {
+        text-decoration: none;
+        color: white;
+        font-family: "Finger Paint";
+        font-size: 12px;
+        font-weight: 200;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:1024px){
+
+}
