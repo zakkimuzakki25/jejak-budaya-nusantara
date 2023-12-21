@@ -51,7 +51,7 @@ function Home() {
   }, [isLoaded2]);
 
   return (
-    <div style={{ overflow: "hidden" }}>
+    <>
       <Navbar />
       <div className="home">
         <div className="home-explore">
@@ -170,7 +170,7 @@ function Home() {
         />
       )}
       <Footer />
-    </div>
+    </>
   );
 }
 
