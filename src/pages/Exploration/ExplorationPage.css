@@ -1,53 +1,53 @@
 #exploration-container {
-    padding: 0px 75px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  padding: 0px 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* content-nusantara */
 .card-nusantara {
-    justify-content: center;
-    align-items: center;
-    display : flex;
-    flex-direction: row;
-    width: 100%;
-    border-bottom: 1px solid #000000;
-  }
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid #000000;
+}
 
-  .content-nusantara .title {
-    font-size: 40px;
-    margin-bottom: 10px;
-    font-family: "Bree Serif";
-  }
-  
-  .content-nusantara .content {
-    font-size: 20px;
-    font-family: "Bree Serif";
-    line-height: 1.5;
-  }
+.content-nusantara .title {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-family: "Bree Serif";
+}
 
-  .content-nusantara a:hover {
-    scale: 1.075;
-  }
-  
-  .content-nusantara .link-path {
-    margin-left: auto;
-    margin-top: 20px;
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap: 10px;
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-    font-size: 18px;
-    font-family: "Finger Paint";
-  }
+.content-nusantara .content {
+  font-size: 20px;
+  font-family: "Bree Serif";
+  line-height: 1.5;
+}
 
-  /* Nusantara Atas */
+.content-nusantara a:hover {
+  scale: 1.075;
+}
+
+.content-nusantara .link-path {
+  margin-left: auto;
+  margin-top: 20px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Finger Paint";
+}
+
+/* Nusantara Atas */
 
 .nusantara-container {
   width: fit-content;
@@ -84,4 +84,64 @@
 .card-nusantara-letter.active-yellow {
   background-color: var(--accent-color-secondary-500);
   color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  #exploration-container {
+    padding: 0px 15px;
+  }
+
+  /* content-nusantara */
+  .card-nusantara {
+    width: 100%;
+    border-bottom: 1px solid #000000;
+  }
+
+  .content-nusantara .title {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: "Bree Serif";
+  }
+
+  .content-nusantara .content {
+    font-size: 20px;
+    font-family: "Bree Serif";
+    line-height: 1.5;
+  }
+
+  .content-nusantara a:hover {
+    scale: 1.075;
+  }
+
+  .content-nusantara .link-path {
+    margin-left: auto;
+    margin-top: 20px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Finger Paint";
+  }
+
+  /* Nusantara Atas */
+
+  .nusantara-container {
+    width: 100%;
+    padding: 15px 10px 15px 10px;
+  }
+
+  .card-nusantara-letter {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
 }
