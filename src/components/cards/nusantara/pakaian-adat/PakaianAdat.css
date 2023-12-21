@@ -58,7 +58,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .maskot-pakaian-adat {
     width: 140px;
   }
@@ -103,6 +103,6 @@
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+/* @media screen and (min-width: 600px) and (max-width: 1024px) {
 
-}
+} */

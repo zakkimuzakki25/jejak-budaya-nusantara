@@ -56,7 +56,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .maskot-tarian-tradisional {
     width: 142px;
   }
@@ -102,5 +102,5 @@
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1024px) {
-}
+/* @media screen and (min-width: 600px) and (max-width: 1024px) {
+} */

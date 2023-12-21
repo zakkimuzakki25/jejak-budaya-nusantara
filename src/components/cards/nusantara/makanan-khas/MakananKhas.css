@@ -36,7 +36,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .maskot-foodie {
     width: 130px;
   }
@@ -66,6 +66,6 @@
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+/* @media screen and (min-width: 600px) and (max-width: 1024px) {
   
-}
+} */

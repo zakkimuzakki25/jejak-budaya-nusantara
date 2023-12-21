@@ -146,4 +146,52 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
+  #exploration-container {
+    padding: 0px 40px;
+  }
+
+  /* content-nusantara */
+  .card-nusantara {
+    width: 100%;
+    border-bottom: 1px solid #000000;
+    padding: 0px 10px 20px 10px;
+    margin-bottom: 20px;
+  }
+
+  .content-nusantara {
+    padding: 0px 5px;
+  }
+
+  .content-nusantara .title {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+
+  .content-nusantara .content {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .content-nusantara .link-path {
+    gap: 7px;
+    font-size: 14px;
+  }
+
+  .content-nusantara .link-path img {
+    width: 7px
+  }
+
+  /* Nusantara Atas */
+
+  .nusantara-container {
+    width: fit-content;
+    padding: 25px 0px 25px 10px;
+  }
+
+  .card-nusantara-letter {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    font-size: 18px;
+  }
 }

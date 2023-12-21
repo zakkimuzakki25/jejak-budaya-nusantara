@@ -31,7 +31,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .janur-adat {
     width: 120px;
   }
@@ -52,6 +52,6 @@
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+/* @media screen and (min-width: 600px) and (max-width: 1024px) {
 
-}
+} */
