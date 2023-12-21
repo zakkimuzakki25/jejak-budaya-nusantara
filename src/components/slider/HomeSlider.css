@@ -127,4 +127,46 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
+  .container {
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+
+  }
+  .prev-btn,
+  .next-btn {
+    font-size: 60px;
+    background-color: transparent;
+    color: var(--footer-bg-color);
+    border: none;
+    padding: 0px;
+    cursor: pointer;
+  }
+  .slide-container {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background-image: linear-gradient(to top, black, transparent 80%);
+    border-radius: 0.5rem;
+  }
+
+  .slide-text {
+    padding: 10px 15px;
+    position: absolute;
+    text-align: justify;
+    bottom: 0px;
+    color: white;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: regular;
+  }
+
+  .slide-img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
 }
