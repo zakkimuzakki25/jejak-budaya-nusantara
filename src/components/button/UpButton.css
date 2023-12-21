@@ -1,69 +1,103 @@
 .up-button-container-left {
+  position: fixed;
+  height: fit-content;
+  bottom: 40px;
+  left: 50px;
+  transform: scale(1.5);
+}
+
+.up-button-container-right {
+  position: fixed;
+  height: fit-content;
+  bottom: 40px;
+  right: 50px;
+  transform: scale(1.5);
+}
+
+.up-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.up-button-img {
+  z-index: 0;
+  height: 40px;
+}
+
+.up-button-BatikAwanv2 {
+  height: 50px;
+  left: -10px;
+  z-index: -1;
+  position: absolute;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.up-button-BatikAwan-rigth {
+  right: -5px;
+  bottom: 0px;
+  height: 20px;
+  position: absolute;
+  opacity: 1;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.up-button-BatikAwan-left {
+  left: -5px;
+  top: 0px;
+  height: 20px;
+  position: absolute;
+  opacity: 1;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.up-button:hover .up-button-BatikAwanv2 {
+  opacity: 0;
+}
+
+.up-button:hover .up-button-BatikAwan-rigth {
+  opacity: 0;
+  transform: translateX(5px);
+}
+
+.up-button:hover .up-button-BatikAwan-left {
+  opacity: 0;
+  transform: translateX(-5px);
+}
+
+@media screen and (max-width: 600px) {
+  .up-button-container-left {
     position: fixed;
     height: fit-content;
-    bottom: 40px;
-    left: 50px;
-    transform: scale(1.5);
+    bottom: 15px;
+    right: 25px;
+    transform: scale(1);
   }
 
   .up-button-container-right {
     position: fixed;
     height: fit-content;
-    bottom: 40px;
-    right: 50px;
-    transform: scale(1.5);
+    bottom: 15px;
+    right: 25px;
+    transform: scale(1);
   }
-  
-  .up-button {
-    background: none;
-    border: none;
-    cursor: pointer;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .up-button-container-left {
+    position: fixed;
+    height: fit-content;
+    bottom: 20px;
+    right: 30px;
+    transform: scale(1);
   }
-  
-  .up-button-img {
-    z-index: 0;
-    height: 40px;
+
+  .up-button-container-right {
+    position: fixed;
+    height: fit-content;
+    bottom: 20px;
+    right: 30px;
+    transform: scale(1);
   }
-  
-  .up-button-BatikAwanv2 {
-    height: 50px;
-    left: -10px;
-    z-index: -1;
-    position: absolute;
-    opacity: 1; /* set initial opacity */
-    transition: opacity 0.3s ease; /* add transition effect */
-  }
-  
-  .up-button-BatikAwan-rigth {
-    right: -5px;
-    bottom: 0px;
-    height: 20px;
-    position: absolute;
-    opacity: 1;
-    transition: opacity 0.3s ease, transform 0.3s ease; /* add transition effect for opacity and transform */
-  }
-  
-  .up-button-BatikAwan-left {
-    left: -5px;
-    top: 0px;
-    height: 20px;
-    position: absolute;
-    opacity: 1;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-  }
-  
-  /* Add hover effects */
-  .up-button:hover .up-button-BatikAwanv2 {
-    opacity: 0;
-  }
-  
-  .up-button:hover .up-button-BatikAwan-rigth {
-    opacity: 0;
-    transform: translateX(5px); /* move 5px to the right on hover */
-  }
-  
-  .up-button:hover .up-button-BatikAwan-left {
-    opacity: 0;
-    transform: translateX(-5px); /* move 5px to the left on hover */
-  }
-  
+}
