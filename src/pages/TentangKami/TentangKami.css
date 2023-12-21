@@ -1,0 +1,181 @@
+.header-tentang-kami {
+  display: "flex";
+  padding: 24px 48px;
+  background-color: #879d80;
+}
+
+.title-header-tentang-kami {
+  margin: 0px;
+  color: white;
+  font-family: "Handlee";
+  font-size: 48px;
+}
+
+.container-tentang-kami {
+  padding: 24px 48px;
+}
+
+.title-content-tentang-kami {
+  margin: 0px;
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: "semibold";
+}
+
+.content-tentang-kami {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-top-tentang-kami {
+  display: flex;
+  flex-direction: row;
+}
+
+.desc-top-tentang-kami {
+  padding-right: 45px;
+  text-align: justify;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.desc-bot-tentang-kami {
+  text-align: justify;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.image-tentang-kami {
+  width: 450px;
+  border-radius: 15px;
+  border: 4px solid #879d80;
+}
+
+@media screen and (max-width: 600px) {
+  .header-tentang-kami {
+    display: "flex";
+    padding: 18px 48px;
+    background-color: #879d80;
+  }
+
+  .title-header-tentang-kami {
+    margin: 0px;
+    color: white;
+    font-family: "Handlee";
+    font-size: 24px;
+  }
+
+  .container-tentang-kami {
+    padding: 24px 48px;
+  }
+
+  .title-content-tentang-kami {
+    margin: 0px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: "semibold";
+  }
+
+  .content-tentang-kami {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .content-top-tentang-kami {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .desc-top-tentang-kami {
+    padding-right: 0px;
+    text-align: justify;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+
+  .desc-bot-tentang-kami {
+    text-align: justify;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+
+  .image-tentang-kami {
+    margin: auto;
+    margin-bottom: 25px;
+    width: 200px;
+    border-radius: 15px;
+    border: 4px solid #879d80;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .header-tentang-kami {
+    display: "flex";
+    padding: 24px 48px;
+    background-color: #879d80;
+  }
+
+  .title-header-tentang-kami {
+    margin: 0px;
+    color: white;
+    font-family: "Handlee";
+    font-size: 36px;
+  }
+
+  .container-tentang-kami {
+    padding: 24px 48px;
+  }
+
+  .title-content-tentang-kami {
+    margin: 0px;
+    font-family: "Montserrat";
+    font-size: 26px;
+    font-weight: "semibold";
+  }
+
+  .content-tentang-kami {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .content-top-tentang-kami {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .desc-top-tentang-kami {
+    padding-right: 0px;
+    text-align: justify;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+
+  .desc-bot-tentang-kami {
+    text-align: justify;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+
+  .image-tentang-kami {
+    margin: auto;
+    margin-bottom: 25px;
+    width: 350px;
+    border-radius: 15px;
+    border: 4px solid #879d80;
+  }
+}
