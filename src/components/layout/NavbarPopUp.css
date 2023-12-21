@@ -39,6 +39,15 @@
   padding: 10px;
 }
 
+.popup-section a {
+  text-decoration: none;
+  color: var(--header-text-color);
+}
+
+.popup-section .slider-item:hover {
+  transform: scale(1.1);
+}
+
 @keyframes animationPopUpNavbar {
   0% {
     transform: translateY(-10px);
@@ -90,18 +99,10 @@
   
   .popup-section {
     display: flex;
-    gap: 50px;
+    gap: 5%;
     font-size: 12px;
     padding: 10px 0;
     text-align: center;
-     
-    
-  }
-  .slider-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center; 
   }
   
 }
