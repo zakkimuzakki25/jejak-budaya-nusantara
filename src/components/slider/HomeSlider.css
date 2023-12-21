@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   width: fit-content;
-  gap: 1rem;
+  gap: 10px;
 }
 
 .container-button {
@@ -82,25 +82,33 @@
 }
 
 @media screen and (max-width: 600px) {
+  .container {
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+
+  }
   .prev-btn,
   .next-btn {
-    font-size: 60px;
+    font-size: 40px;
     background-color: transparent;
     color: var(--footer-bg-color);
     border: none;
-    padding: 10px;
+    padding: 0px;
     cursor: pointer;
   }
   .slide-container {
     position: absolute;
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
     background-image: linear-gradient(to top, black, transparent 80%);
     border-radius: 0.5rem;
   }
 
   .slide-text {
-    padding: 15px 20px;
+    padding: 10px 15px;
     position: absolute;
     text-align: justify;
     bottom: 0px;
@@ -111,8 +119,8 @@
   }
 
   .slide-img {
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
     object-fit: cover;
     border-radius: 0.5rem;
   }
