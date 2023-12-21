@@ -3,18 +3,18 @@
   --header-text-color: #efb849;
   --color-other-white: #f1f5f9;
   --color-other-black: #333333;
-  --color-primary-50: #9FB099;
-  --color-primary-100: #879D80;
-  --color-primary-700: #0F3B01;
-  --color-primary-800: #0A2900;
+  --color-primary-50: #9fb099;
+  --color-primary-100: #879d80;
+  --color-primary-700: #0f3b01;
+  --color-primary-800: #0a2900;
   --accent-color-main: #fc3903;
   --accent-color-secondary: #f3ca76;
-  --accent-color-secondary-50: #FBEDD1;
-  --accent-color-secondary-200: #F3CA76;
-  --accent-color-secondary-300: #EFB849;
-  --accent-color-secondary-400: #EBA71C;
-  --accent-color-secondary-500: #D39619 ;
-  --accent-color-secondary-600: #A47413 ;
+  --accent-color-secondary-50: #fbedd1;
+  --accent-color-secondary-200: #f3ca76;
+  --accent-color-secondary-300: #efb849;
+  --accent-color-secondary-400: #eba71c;
+  --accent-color-secondary-500: #d39619;
+  --accent-color-secondary-600: #a47413;
   --accent-color-tertiary: #879d80;
   --bubble-chat-bg-color: #fbedd1;
   --footer-bg-color: #d39619;
@@ -29,7 +29,7 @@
   background-image: url("/src/assets/background/HomeCut.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% -55px;
+  background-position: 50% -105px;
 }
 
 .button-explore-section {
@@ -58,7 +58,7 @@
 } */
 
 .home-explore {
-  height: 370px;
+  height: 330px;
   padding: 40px;
   display: flex;
   flex-direction: row;
@@ -148,27 +148,29 @@
   z-index: 100;
 }
 
-.home-slide-fact{
+.home-slide-fact {
   padding: 40px 100px 40px 100px;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
-.home-awan{
+.home-awan {
   height: fit-content;
 }
 
 @media screen and (max-width: 600px) {
   .home {
     background-position: 50% 0px;
+    background-size: 200%;
+    justify-items: center;
   }
 
   .home-explore {
     height: fit-content;
     padding: 20px 20px 0px 20px;
     display: flex;
+    gap: 10px;
     flex-direction: column;
   }
 
@@ -183,12 +185,14 @@
 
   .home-intro h1 {
     font-size: 14px;
+    text-align: center;
   }
 
   .home-intro p {
     font-size: 11px;
+    text-align: center;
   }
-  
+
   .button-explore-section {
     padding: 20px;
   }
@@ -196,8 +200,28 @@
   .home-maskot {
     width: 80px;
   }
+
+  .home-content {
+    padding: 10px 20px 10px 20px;
+  }
+
+  .home-interesting-fact {
+    height: 40px;
+  }
+
+  .home-interesting-fact a {
+    gap: 5px;
+    font-size: 10px;
+  }
+
+  .home-interesting-fact .link-path img {
+    width: 5px;
+  }
+
+  .home-slide-fact {
+    padding: 10px 20px 10px 20px;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
-
 }
