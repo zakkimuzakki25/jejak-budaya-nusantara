@@ -70,8 +70,8 @@
   .up-button-container-left {
     position: fixed;
     height: fit-content;
-    bottom: 15px;
-    right: 25px;
+    bottom: 40px;
+    left: 20px;
     transform: scale(1);
   }
 
