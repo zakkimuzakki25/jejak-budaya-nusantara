@@ -57,3 +57,52 @@
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .maskot-pakaian-adat {
+    width: 140px;
+  }
+
+  .topi-adat {
+    width: 60px;
+  }
+
+  .pakaian-adat {
+    width: 90px;
+  }
+
+  @keyframes topi-adat-animation {
+  0% {
+    top: 50%;
+    right: 25%;
+    opacity: 0;
+    z-index: 0;
+  }
+  50% {
+    top: 7%;
+    right: 35px;
+    opacity: 0.5;
+  }
+  100% {
+    top: 13%;
+    right: 57px;
+    opacity: 1;
+    z-index: 1;
+  }
+}
+  
+  @keyframes pakaian-adat-animation {
+    0% {
+      top: 50%;
+      right: 25%;
+    }
+    100% {
+      top: 50%;
+      right: 25px;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+
+}

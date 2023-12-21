@@ -1,80 +1,131 @@
 .music-hijau-1 {
-    position: absolute;
-    z-index: 1;
-    top: 8%;
-    right: 170px;
-    transform: translateY(-50%);
-    animation: music-hijau-1-animation 0.5s ease-out forwards;
+  position: absolute;
+  z-index: 1;
+  top: 8%;
+  right: 170px;
+  transform: translateY(-50%);
+  animation: music-hijau-1-animation 0.5s ease-out forwards;
 }
 
 .music-kuning {
-    position: absolute;
-    z-index: 1;
-    top: 35%;
-    right: 105px;
-    transform: translateY(-50%);
-    animation: music-kuning-animation 0.5s ease-out forwards;
+  position: absolute;
+  z-index: 1;
+  top: 35%;
+  right: 105px;
+  transform: translateY(-50%);
+  animation: music-kuning-animation 0.5s ease-out forwards;
 }
 
 .music-hijau-2 {
-    position: absolute;
-    z-index: 1;
-    bottom: 25%;
-    right: 148px;
-    transform: translateY(-50%);
-    animation: music-hijau-2-animation 0.5s ease-out forwards;
+  position: absolute;
+  z-index: 1;
+  bottom: 25%;
+  right: 148px;
+  transform: translateY(-50%);
+  animation: music-hijau-2-animation 0.5s ease-out forwards;
 }
 
 .maskot-musician {
-    position: absolute;
-    z-index: 0;
-    top: 50%;
-    left: 50px;
-    transform: translateY(-50%);
-    animation: maskot-animation 0.5s ease-out forwards;
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  animation: maskot-animation 0.5s ease-out forwards;
 }
 
 @keyframes music-hijau-1-animation {
+  0% {
+    top: 5%;
+    right: 160px;
+    opacity: 0;
+    z-index: 0;
+  }
+  100% {
+    top: 8%;
+    right: 170px;
+    opacity: 1;
+    z-index: 1;
+  }
+}
+
+@keyframes music-kuning-animation {
+  0% {
+    top: 35%;
+    right: 95px;
+    opacity: 0;
+    z-index: 0;
+  }
+  100% {
+    top: 35%;
+    right: 105px;
+    opacity: 1;
+    z-index: 1;
+  }
+}
+
+@keyframes music-hijau-2-animation {
+  0% {
+    bottom: 23%;
+    right: 138px;
+    opacity: 0;
+    z-index: 0;
+  }
+  100% {
+    bottom: 25%;
+    right: 148px;
+    opacity: 1;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .maskot-musician {
+    width: 135px;
+  }
+
+  .music-hijau-1,
+  .music-hijau-2 {
+    width: 22px;
+  }
+
+  .music-kuning {
+    width: 17px;
+  }
+
+  @keyframes music-hijau-1-animation {
     0% {
       top: 5%;
-      right: 160px;
-      opacity: 0;
-      z-index: 0;
+      right: 50px;
     }
     100% {
-      top: 8%;
-      right: 170px;
-      opacity: 1;
-      z-index: 1;
+      top: 5%;
+      right: 70px;
     }
   }
 
   @keyframes music-kuning-animation {
     0% {
       top: 35%;
-      right: 95px;
-      opacity: 0;
-      z-index: 0;
+      right: 20px;
     }
     100% {
-      top: 35%;
-      right: 105px;
-      opacity: 1;
-      z-index: 1;
+      top: 37%;
+      right: 40px;
     }
   }
 
   @keyframes music-hijau-2-animation {
     0% {
       bottom: 23%;
-      right: 138px;
-      opacity: 0;
-      z-index: 0;
+      right: 40px;
     }
     100% {
-      bottom: 25%;
-      right: 148px;
-      opacity: 1;
-      z-index: 1;
+      bottom: 20%;
+      right: 65px;
     }
   }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+}

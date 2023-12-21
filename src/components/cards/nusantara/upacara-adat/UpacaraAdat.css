@@ -30,3 +30,28 @@
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .janur-adat {
+    width: 120px;
+  }
+
+  .maskot-upacara-adat {
+    width: 130px;
+  }
+
+  @keyframes janur-adat-animation {
+    0% {
+      top: 50%;
+      right: 25%;
+    }
+    100% {
+      top: 50%;
+      right: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+
+}
