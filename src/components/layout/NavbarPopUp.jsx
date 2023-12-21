@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
+/* eslint-disable react/prop-types */
+import { useEffect, useState } from "react";
 import "./NavbarPopUp.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import ExploreButton from "../button/ExploreButton";
 
 const NavbarPopUp = ({ isVisible, items, togglePopUp }) => {
-  const nav = useNavigate();
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [firstSection, setFirstSection] = useState([]);
   const [secondSection, setSecondSection] = useState([]);
@@ -34,11 +34,6 @@ const NavbarPopUp = ({ isVisible, items, togglePopUp }) => {
       setThirdSection([]);
     }
   }, [items, windowWidth]);
-
-  const handleNavClick = (path) => {
-    nav(path);
-    togglePopUp(false);
-  };
 
   return (
     <div className={`navbar-popup-container ${isVisible ? "show-popup" : ""}`}>

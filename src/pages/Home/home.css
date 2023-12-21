@@ -145,6 +145,7 @@
 .home-awan {
   position: relative;
   height: fit-content;
+  overflow: hidden;
 }
 
 .batik-awan-kiriatas {
