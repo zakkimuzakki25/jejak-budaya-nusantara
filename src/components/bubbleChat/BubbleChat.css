@@ -13,8 +13,8 @@
 
 .bubble, .bubble-tutorial {
   position: absolute;
-  right: 250px;
-  bottom: 235px;
+  right: 190px;
+  bottom: 180px;
   background-color: var(--accent-color-secondary-50);
   padding: 15px 20px;
   border-radius: 15px 15px 0px 15px;

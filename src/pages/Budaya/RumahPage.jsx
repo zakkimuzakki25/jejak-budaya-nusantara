@@ -7,6 +7,7 @@ import UpButton from "../../components/button/UpButton";
 import Navbar from "../../components/layout/Navbar.jsx";
 import Footer from "../../components/layout/Footer.jsx";
 import "./budaya.css";
+import ChatTalkBudaya from "../../components/bubbleChat/ChatTalkBudaya.jsx";
 
 const RumahPage = () => {
   useEffect(() => {
@@ -37,7 +38,7 @@ const RumahPage = () => {
               key={index}
             />
           ))}
-          <img className="maskot-budaya" src={maskot} alt="maskot" />
+          <ChatTalkBudaya maskot={maskot}/>
         </div>
         <UpButton posisi={"left"} />
       </div>
