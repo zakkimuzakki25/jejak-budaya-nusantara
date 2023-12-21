@@ -20,47 +20,15 @@ const HomeSlider = ({ data }) => {
           &lt;
         </button>
       </div>
-      <div className="homeslider">
+      <div>
         {data.map((item, idx) => {
           return (
             <>
               <div className={slide === idx ? "slide" : "slide slide-hidden"}>
-                <div
-                  style={{
-                    position: "absolute",
-                    width: "600px",
-                    height: "400px",
-                    backgroundImage:
-                      "linear-gradient(to top, black, transparent 80%)",
-                    borderRadius: "0.5rem",
-                  }}
-                >
-                  <div
-                    style={{
-                      padding: "15px 20px",
-                      position: "absolute",
-                      textAlign: "justify",
-                      bottom: "0px",
-                      color: "white",
-                      fontFamily: "Inter",
-                      fontSize: "16px",
-                      fontWeight: "regular",
-                    }}
-                  >
-                    {item.deskripsi}
-                  </div>
+                <div className="slide-container">
+                  <div className="slide-text">{item.deskripsi}</div>
                 </div>
-                <img
-                  src={item.src}
-                  alt={item.alt}
-                  key={idx}
-                  style={{
-                    width: "600px",
-                    height: "400px",
-                    objectFit: "cover",
-                    borderRadius: "0.5rem",
-                  }}
-                />
+                <img className="slide-img" src={item.src} key={idx} />
               </div>
             </>
           );
