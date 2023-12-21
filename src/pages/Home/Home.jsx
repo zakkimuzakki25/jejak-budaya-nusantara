@@ -25,6 +25,13 @@ function Home() {
   );
   const [isLoaded2, setIsLoaded2] = useState(false);
   const [isChatActive, setIsChatActive] = useState(false);
+  const [randomIndex, setRandomIndex] = useState(
+    Math.floor(Math.random() * listChatMaskot.length)
+  );
+
+  const changeIndexHandle = () => {
+    setRandomIndex(Math.floor(Math.random() * listChatMaskot.length));
+  };
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -121,8 +128,9 @@ function Home() {
             setBubbleChat={setIsLoaded}
             handleClick={() => setIsLoaded2(true)}
             zIndex={99}
+            isTutorial={true}
           />
-          <img className="home-maskot active" src={maskotAwan} alt="maskot" />
+          <img className={`home-maskot ${isChatActive && "talk-random"} active`} src={maskotAwan} alt="maskot" />
         </>
       ) : isLoaded2 ? (
         <>
@@ -132,33 +140,34 @@ function Home() {
             }
             setBubbleChat={setIsLoaded2}
             zIndex={97}
+            isTutorial={true}
           />
-          <img className="home-maskot active" src={maskotAwan} alt="maskot" />
+          <img className={`home-maskot ${isChatActive && "talk-random"} active`} src={maskotAwan} alt="maskot" />
         </>
-      ) : (
-        isChatActive ? (
-          <>
-            <BubbleChat 
-            message={
-              listChatMaskot[Math.floor(Math.random() * listChatMaskot.length)]
-            }
+      ) : isChatActive ? (
+        <>
+          <BubbleChat
+            message={listChatMaskot[randomIndex]}
             setBubbleChat={setIsChatActive}
             zIndex={99}
             isTutorial={false}
-            />
-            <img onClick={() => {
-              setIsChatActive(false)
-              setIsChatActive(true)
-            }} className="home-maskot active" src={maskotAwan} alt="maskot" />
-          </>
-        ) : (
-          <img
-            className="home-maskot"
-            src={maskot}
-            alt="maskot"
-            onClick={() => setIsChatActive(true)}
           />
-        )
+          <img
+            onClick={changeIndexHandle}
+            className={`home-maskot ${isChatActive && "talk-random"} active`}
+            src={maskotAwan}
+            alt="maskot"
+            style={{ cursor: "pointer" }}
+          />
+        </>
+      ) : (
+        <img
+          className={`home-maskot ${isChatActive && "talk-random"}`}
+          src={maskot}
+          alt="maskot"
+          onClick={() => setIsChatActive(true)}
+          style={{ cursor: "pointer" }}
+        />
       )}
       <Footer />
     </div>

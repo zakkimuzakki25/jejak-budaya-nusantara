@@ -24,6 +24,16 @@ const ExplorationPage = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  useEffect(() => {
+    if (isLoaded2) {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+      });
+    }
+  }, [isLoaded2]);
+
   let listWindow = window.localStorage.getItem("listExplorationJejakNusantara");
   listWindow = listWindow ? listWindow.split("#") : [];
 
@@ -143,6 +153,7 @@ const ExplorationPage = () => {
               setBubbleChat={setIsLoaded}
               handleClick={() => setIsLoaded2(true)}
               zIndex={99}
+              isTutorial={true}
             />
             <img className="home-maskot active" src={maskotAwan} alt="maskot" />
           </>
@@ -156,6 +167,7 @@ const ExplorationPage = () => {
                 setBubbleChat={setIsLoaded2}
                 handleClick={endHandler}
                 zIndex={97}
+                isTutorial={true}
               />
               <img className="home-maskot active" src={maskotAwan} alt="maskot" />
             </>

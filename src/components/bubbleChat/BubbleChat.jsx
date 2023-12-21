@@ -10,10 +10,10 @@ const BubbleChat = ({ message, setBubbleChat, handleClick, zIndex, isTutorial })
   return (
     <div
       onClick={clickHandle}
-      className="overlay ${isTutorial ? 'tutorial' : ''}"
+      className={`overlay ${isTutorial ? 'tutorial' : ''}`}
       style={{ zIndex: `${zIndex}` }}
     >
-      <div className="bubble">
+      <div className={`${isTutorial ? 'bubble-tutorial' : 'bubble'}`}>
         <div>{message}</div>
       </div>
 

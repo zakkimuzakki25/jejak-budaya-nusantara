@@ -258,11 +258,15 @@
   }
 
   .home-maskot {
-    width: 80px;
+    height: 80px;
   }
 
   .home-maskot.active {
-    bottom: 280px;
+    bottom: 290px;
+  }
+
+  .home-maskot.talk-random {
+    bottom: 10px;
   }
 
   .home-content {
@@ -385,7 +389,7 @@
   }
 
   .home-maskot {
-    width: 110px;
+    height: 140px;
   }
 
   .home-maskot.active {
