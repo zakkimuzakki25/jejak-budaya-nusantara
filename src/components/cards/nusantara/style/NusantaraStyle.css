@@ -93,7 +93,7 @@
   .laman-adat-kiri {
     min-height: 200px;
     min-width: 279px;
-    width: 100%;
+    width: fit-content;
     padding: 0px;
   }
   
@@ -120,7 +120,7 @@
       left: 25%;
     }
     100% {
-      left: 10px;
+      left: 5px;
     }
   }
 }

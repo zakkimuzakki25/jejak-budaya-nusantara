@@ -107,11 +107,11 @@
   @keyframes music-kuning-animation {
     0% {
       top: 35%;
-      right: 20px;
+      right: 15px;
     }
     100% {
       top: 37%;
-      right: 40px;
+      right: 30px;
     }
   }
 
@@ -122,7 +122,7 @@
     }
     100% {
       bottom: 20%;
-      right: 65px;
+      right: 58px;
     }
   }
 }

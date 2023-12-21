@@ -1,17 +1,19 @@
-.up-button-container-left {
-  position: fixed;
-  height: fit-content;
-  bottom: 40px;
-  left: 50px;
-  transform: scale(1.5);
-}
-
+.up-button-container-left,
 .up-button-container-right {
   position: fixed;
   height: fit-content;
+  transform: scale(1.5);
+  z-index: 90;
+}
+
+.up-button-container-left {
+  bottom: 40px;
+  left: 50px;
+}
+
+.up-button-container-right {
   bottom: 40px;
   right: 50px;
-  transform: scale(1.5);
 }
 
 .up-button {
