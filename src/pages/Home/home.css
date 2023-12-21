@@ -334,7 +334,7 @@
     bottom: -70px;
     left: -130px;
     height: 150px;
-    animation: moveSlightly 5s ease-in-out infinite alternate;
+    animation: moveSlightly 7s ease-in-out infinite alternate;
   }
   
   .batik-awan-kiribawah-bawah {
@@ -343,7 +343,7 @@
     bottom: -30px;
     left: -100px;
     height: 100px;
-    animation: moveSlightly 5s ease-in-out infinite alternate;
+    animation: moveSlightly 7s ease-in-out infinite alternate;
   }
   
   .batik-awan-kananbawah-atas {
@@ -353,7 +353,7 @@
     right: -130px;
     height: 150px;
     transform: scaleX(-1);
-    animation: moveSlightly 5s ease-in-out infinite alternate;
+    animation: moveSlightly 7s ease-in-out infinite alternate;
   }
   
   .batik-awan-kananbawah-bawah {
@@ -363,7 +363,7 @@
     right: -100px;
     height: 100px;
     transform: scaleX(-1);
-    animation: moveSlightly 5s ease-in-out infinite alternate;
+    animation: moveSlightly 7s ease-in-out infinite alternate;
   }
 }
 
