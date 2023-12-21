@@ -38,7 +38,7 @@
 @media screen and (max-width: 600px) {
   .bubble,
   .bubble-tutorial {
-    right: 130px;
+    right: 120px;
     bottom: 95px;
     padding: 5px 10px;
     border-radius: 10px 10px 0px 10px;
