@@ -29,23 +29,25 @@ function Footer() {
 
         <div className="footer-right">
           <h3>Eksplorasi Budaya</h3>
-          <div className="footer-navigator">
-            {firstSection.map((item, index) => (
-              <div key={index} className="slider-item">
-                <Link to={item.path} className="slider-link">
-                  {item.nama}
-                </Link>
-              </div>
-            ))}
-          </div>
-          <div className="footer-navigator">
-            {secondSection.map((item, index) => (
-              <div key={index} className="slider-item">
-                <Link to={item.path} className="slider-link">
-                  {item.nama}
-                </Link>
-              </div>
-            ))}
+          <div className="footer-navigator-section">
+            <div className="footer-navigator">
+              {firstSection.map((item, index) => (
+                <div key={index} className="slider-item">
+                  <Link to={item.path} className="slider-link">
+                    {item.nama}
+                  </Link>
+                </div>
+              ))}
+            </div>
+            <div className="footer-navigator">
+              {secondSection.map((item, index) => (
+                <div key={index} className="slider-item">
+                  <Link to={item.path} className="slider-link">
+                    {item.nama}
+                  </Link>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
