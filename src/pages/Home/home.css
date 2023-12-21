@@ -259,13 +259,10 @@
   }
 
   .home-maskot {
-    height: 80px;
+    height: 130px;
   }
 
-  .home-maskot.active {
-    bottom: 290px;
-  }
-
+  .home-maskot.active,
   .home-maskot.talk-random {
     bottom: 10px;
   }

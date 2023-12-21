@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable react/prop-types */
 import './BubbleChat.css'; // Ubah nama file sesuai kebutuhan Anda
 
 const BubbleChat = ({ message, setBubbleChat, handleClick, zIndex, isTutorial }) => {

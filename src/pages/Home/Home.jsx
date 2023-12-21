@@ -136,7 +136,7 @@ function Home() {
         <>
           <BubbleChat
             message={
-              "Dengan mengklik bagian ini, kamu dapat memulai perjalanan virtual kamu untuk menjelajahi keberagaman budaya Nusantara. Temukan cerita-cerita menarik, warisan seni yang unik, dan tradisi-tradisi yang memperkaya kehidupan masyarakat Indonesia.Bagian ini digunakan untuk eksplorasi"
+              "Dengan mengklik bagian ini, kamu dapat memulai perjalanan virtual kamu untuk menjelajahi keberagaman budaya Nusantara dan temukan cerita-cerita menarik, warisan seni yang unik, dan tradisi-tradisi yang memperkaya kehidupan masyarakat Indonesia."
             }
             setBubbleChat={setIsLoaded2}
             zIndex={97}
