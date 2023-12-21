@@ -280,6 +280,10 @@
     width: 80px;
   }
 
+  .home-maskot.active {
+    bottom: 280px;
+  }
+
   .home-content {
     padding: 10px 20px 10px 20px;
   }
@@ -361,17 +365,131 @@
     transform: scaleX(-1);
     animation: moveSlightly 5s ease-in-out infinite alternate;
   }
-  
-  @keyframes moveSlightly {
-    0%,
-    100% {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(10px);
-    }
-  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
+  .home {
+    background-position: 50% -40px;
+    background-size: cover;
+    justify-items: center;
+  }
+
+  .home-explore {
+    height: fit-content;
+    padding: 30px 50px 0px 50px;
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+  }
+
+  .home-map img {
+    height: 100px;
+  }
+
+  .home-intro {
+    width: 100%;
+    padding: 0px 25px 25px 25px;
+  }
+
+  .home-intro h1 {
+    font-size: 16px;
+  }
+
+  .home-intro p {
+    font-size: 12px;
+  }
+
+  .button-explore-section {
+    padding: 30px;
+  }
+
+  .home-maskot {
+    width: 110px;
+  }
+
+  .home-maskot.active {
+    bottom: 280px;
+  }
+
+  .home-content {
+    padding: 20px 40px 20px 40px;
+  }
+
+  .home-interesting-fact {
+    height: 60px;
+    border-bottom: 1px solid #333;
+  }
+
+  .home-interesting-fact h1 {
+    font-size: 20px;
+  }
+
+  .home-interesting-fact a {
+    gap: 10px;
+    font-size: 15px;
+  }
+
+  .home-interesting-fact .link-path img {
+    width: 7px;
+  }
+
+  .home-slide-fact {
+    padding: 25px 40px 25px 40px;
+  }
+
+  .batik-awan-kiriatas {
+    position: absolute;
+    z-index: -1;
+    top: 90px;
+    left: -40px;
+    height: 90px;
+    animation: moveSlightly 7s ease-in-out infinite alternate;
+  }
+  
+  .batik-awan-kananatas {
+    position: absolute;
+    z-index: -1;
+    top: 90px;
+    right: -30px;
+    height: 90px;
+    transform: scaleX(-1);
+    animation: moveSlightly 7s ease-in-out infinite alternate;
+  }
+  .batik-awan-kiribawah-atas {
+    position: absolute;
+    z-index: -1;
+    bottom: -70px;
+    left: -130px;
+    height: 210px;
+    animation: moveSlightly 5s ease-in-out infinite alternate;
+  }
+  
+  .batik-awan-kiribawah-bawah {
+    position: absolute;
+    z-index: -1;
+    bottom: -30px;
+    left: -100px;
+    height: 120px;
+    animation: moveSlightly 5s ease-in-out infinite alternate;
+  }
+  
+  .batik-awan-kananbawah-atas {
+    position: absolute;
+    z-index: -1;
+    bottom: -70px;
+    right: -130px;
+    height: 210px;
+    transform: scaleX(-1);
+    animation: moveSlightly 5s ease-in-out infinite alternate;
+  }
+  
+  .batik-awan-kananbawah-bawah {
+    position: absolute;
+    z-index: -1;
+    bottom: -30px;
+    right: -100px;
+    height: 120px;
+    transform: scaleX(-1);
+    animation: moveSlightly 5s ease-in-out infinite alternate;
+  }
 }

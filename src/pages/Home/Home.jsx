@@ -120,7 +120,7 @@ function Home() {
             handleClick={() => setIsLoaded2(true)}
             zIndex={99}
           />
-          <img className="home-maskot" src={maskotAwan} alt="maskot" />
+          <img className="home-maskot active" src={maskotAwan} alt="maskot" />
         </>
       ) : isLoaded2 ? (
         <>
@@ -131,7 +131,7 @@ function Home() {
             setBubbleChat={setIsLoaded2}
             zIndex={97}
           />
-          <img className="home-maskot" src={maskotAwan} alt="maskot" />
+          <img className="home-maskot active" src={maskotAwan} alt="maskot" />
         </>
       ) : (
         <img className="home-maskot" src={maskot} alt="maskot" />

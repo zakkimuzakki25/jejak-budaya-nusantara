@@ -144,7 +144,7 @@ const ExplorationPage = () => {
               handleClick={() => setIsLoaded2(true)}
               zIndex={99}
             />
-            <img className="home-maskot" src={maskotAwan} alt="maskot" />
+            <img className="home-maskot active" src={maskotAwan} alt="maskot" />
           </>
         ) : (
           isLoaded2 && (
@@ -157,7 +157,7 @@ const ExplorationPage = () => {
                 handleClick={endHandler}
                 zIndex={97}
               />
-              <img className="home-maskot" src={maskotAwan} alt="maskot" />
+              <img className="home-maskot active" src={maskotAwan} alt="maskot" />
             </>
           )
         )}
