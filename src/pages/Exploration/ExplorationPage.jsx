@@ -77,9 +77,9 @@ const ExplorationPage = () => {
         </div>
 
         {explorationList.map((exploration, index) => (
-          <div className="card-nusantara" id={exploration.id} key={index}>
+          <>
             {exploration.position === "left" ? (
-              <>
+              <div className="card-nusantara left" id={exploration.id} key={index}>
                 {/* card maskot */}
                 <exploration.card />
 
@@ -92,7 +92,7 @@ const ExplorationPage = () => {
                     to={exploration.path}
                     className="link-path"
                   >
-                    <p style={{ margin: "0px" }}>lihat selengkapnya</p>
+                    <p style={{ margin: "0px" }}>jelajahi</p>
                     <img
                       src={VectorArrow}
                       alt="Vector Arrow"
@@ -100,9 +100,9 @@ const ExplorationPage = () => {
                     />
                   </Link>
                 </div>
-              </>
+              </div>
             ) : (
-              <>
+              <div className="card-nusantara right" id={exploration.id} key={index}>
                 {/* content */}
                 <div
                   className="content-nusantara"
@@ -118,7 +118,7 @@ const ExplorationPage = () => {
                     to={exploration.path}
                     className="link-path"
                   >
-                    <p style={{ margin: "0px" }}>lihat selengkapnya</p>
+                    <p style={{ margin: "0px" }}>jelajahi</p>
                     <img
                       src={VectorArrow}
                       alt="Vector Arrow"
@@ -129,9 +129,9 @@ const ExplorationPage = () => {
 
                 {/* card maskot */}
                 <exploration.card />
-              </>
+              </div>
             )}
-          </div>
+          </>
         ))}
 
         {isLoaded ? (

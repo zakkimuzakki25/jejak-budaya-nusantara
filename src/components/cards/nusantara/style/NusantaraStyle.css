@@ -87,3 +87,35 @@
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .laman-adat-kanan,
+  .laman-adat-kiri {
+    min-height: 200px;
+    min-width: 279px;
+    width: 100%;
+    padding: 0px;
+  }
+  
+  .card-adat-kiri,
+  .card-adat-kanan {
+    padding: 15px;
+    gap: 5px;
+    border-radius: 5px;
+  }
+
+  .huruf-adat {
+    width: 90px;
+    height: 90px;
+    font-size: 75px;
+  }
+  
+  .nama-adat {
+    font-size: 12px;
+    width: 90px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+
+}
