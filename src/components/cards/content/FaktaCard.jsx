@@ -1,4 +1,4 @@
-import './FaktaCard.css';
+import './Card.css';
 
 // eslint-disable-next-line react/prop-types
 function FaktaCard({ jenis, nama, daerah, foto, deskripsi, sumber }) {

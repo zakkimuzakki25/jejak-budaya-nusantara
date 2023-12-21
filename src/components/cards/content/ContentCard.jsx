@@ -1,4 +1,4 @@
-import './ContentCard.css';
+import './Card.css';
 
 // eslint-disable-next-line react/prop-types
 function ContentCard({ jenis, nama, daerah, foto, deskripsi, sumber }) {

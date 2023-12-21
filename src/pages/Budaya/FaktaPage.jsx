@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import UpButton from "../../components/button/UpButton";
 import Navbar from "../../components/layout/Navbar.jsx";
 import Footer from "../../components/layout/Footer.jsx";
+import "./budaya.css";
 
 const FaktaPage = () => {
   useEffect(() => {
@@ -13,32 +14,8 @@ const FaktaPage = () => {
     <>
       <Navbar />
       <div>
-        <h1
-          style={{
-            display: "flex",
-            margin: "0px",
-            height: "50px",
-            justifyContent: "center",
-            alignItems: "center",
-            backgroundColor: "var(--header-bg-color)",
-            color: "white",
-            fontFamily: "Finger Paint",
-            fontSize: "22px",
-            fontWeight: "200",
-          }}
-        >
-          Daftar Fakta Menarik Budaya Indonesia
-        </h1>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            flexDirection: "column",
-            backgroundColor: "#f1f5f9",
-            paddingBottom: "30px",
-          }}
-        >
+        <h1 className="judul-budaya">Daftar Fakta Menarik Budaya Indonesia</h1>
+        <div className="budaya-card-container">
           {faktaMenarik.map((faktamenarik, index) => (
             <FaktaCard
               jenis={faktamenarik.judul}
