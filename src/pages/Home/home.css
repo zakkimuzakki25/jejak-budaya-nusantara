@@ -126,6 +126,12 @@
   justify-content: space-between;
 }
 
+.home-interesting-fact h1 {
+  font-family: "Handlee";
+  font-size: 25px;
+  color: #333;
+}
+
 .home-interesting-fact a {
   display: flex;
   align-items: center;
@@ -207,6 +213,11 @@
 
   .home-interesting-fact {
     height: 40px;
+    border-bottom: 1px solid #333;
+  }
+
+  .home-interesting-fact h1 {
+    font-size: 15px;
   }
 
   .home-interesting-fact a {
@@ -224,4 +235,5 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
+  
 }
