@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./NavbarPopUp.css";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import ExploreButton from "../button/ExploreButton";
 
@@ -46,24 +46,24 @@ const NavbarPopUp = ({ isVisible, items, togglePopUp }) => {
         <div className="popup-section">
           {firstSection.map((item, index) => (
             <div key={index} className="slider-item">
-              <button
-                onClick={() => handleNavClick(item.path)}
+              <Link
+                to={item.path}
                 className="slider-link"
               >
                 {item.nama}
-              </button>
+              </Link>
             </div>
           ))}
         </div>
         <div className="popup-section">
           {secondSection.map((item, index) => (
             <div key={index} className="slider-item">
-              <button
-                onClick={() => handleNavClick(item.path)}
+              <Link
+                to={item.path}
                 className="slider-link"
               >
                 {item.nama}
-              </button>
+              </Link>
             </div>
           ))}
         </div>
@@ -71,12 +71,12 @@ const NavbarPopUp = ({ isVisible, items, togglePopUp }) => {
           <div className="popup-section">
             {thirdSection.map((item, index) => (
               <div key={index} className="slider-item">
-                <button
-                  onClick={() => handleNavClick(item.path)}
+                <Link
+                  to={item.path}
                   className="slider-link"
                 >
                   {item.nama}
-                </button>
+                </Link>
               </div>
             ))}
           </div>
