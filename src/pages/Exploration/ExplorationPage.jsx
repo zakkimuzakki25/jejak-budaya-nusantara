@@ -116,10 +116,6 @@ const ExplorationPage = () => {
                 {/* content */}
                 <div
                   className="content-nusantara"
-                  style={{
-                    justifySelf: "end",
-                    textAlign: "right",
-                  }}
                 >
                   <div className="title">{exploration.header}</div>
                   <div className="content">{exploration.text}</div>
