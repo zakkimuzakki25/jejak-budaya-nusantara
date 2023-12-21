@@ -17,11 +17,13 @@ function Footer() {
         <div className="footer-middle">
           <h3>JBN</h3>
           <Link to={"/tentang-kami"}>Tentang Kami</Link>
-          <Link>Hubungi Kami</Link>
+          <Link 
+            to="https://wa.me/6283851569111"
+            target="_blank"
+            >Hubungi Kami</Link>
           <Link
             to="https://www.instagram.com/jejakbudayanusantara?igshid=OGQ5ZDc2ODk2ZA=="
             target="_blank"
-            rel="noopener noreferrer"
           >
             Media Sosial
           </Link>
