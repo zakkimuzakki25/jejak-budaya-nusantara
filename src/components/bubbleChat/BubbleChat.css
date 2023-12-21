@@ -40,9 +40,9 @@
   .bubble-tutorial {
     right: 130px;
     bottom: 95px;
-    padding: 10px 15px;
+    padding: 5px 10px;
     border-radius: 10px 10px 0px 10px;
-    max-width: 150px;
+    max-width: 55%;
     font-size: 11px;
   }
 

@@ -31,6 +31,7 @@ function Home() {
 
   const changeIndexHandle = () => {
     setRandomIndex(Math.floor(Math.random() * listChatMaskot.length));
+    setIsChatActive(true);
   };
 
   useEffect(() => {
@@ -165,7 +166,7 @@ function Home() {
           className={`home-maskot ${isChatActive && "talk-random"}`}
           src={maskot}
           alt="maskot"
-          onClick={() => setIsChatActive(true)}
+          onClick={changeIndexHandle}
           style={{ cursor: "pointer" }}
         />
       )}
