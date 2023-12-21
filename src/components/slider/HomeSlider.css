@@ -39,20 +39,22 @@
 .next-btn {
   font-size: 100px;
   background-color: transparent;
-  color: black;
+  color: var(--footer-bg-color);
   border: none;
-  padding: 10px;
   cursor: pointer;
 }
 
 .prev-btn {
   left: 0;
-  color: var(--footer-bg-color);
 }
 
 .next-btn {
   right: 0;
-  color: var(--footer-bg-color);
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  transform: scale(1.1);
 }
 
 .slide-container {
