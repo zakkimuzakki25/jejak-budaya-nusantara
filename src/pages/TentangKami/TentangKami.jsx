@@ -9,7 +9,7 @@ const TentangKami = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <>
+    <div className="navbar-parent">
       <Navbar />
       <div>
         <div className="header-tentang-kami">
@@ -62,7 +62,7 @@ const TentangKami = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
