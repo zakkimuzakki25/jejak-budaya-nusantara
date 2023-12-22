@@ -9,7 +9,8 @@
 
   function Navbar() {
     const [isPopUpVisible, setPopUpVisible] = useState(false);
-    const buttonRef = useRef(null);
+  // const [lastScrollY, setLastScrollY] = useState(window.scrollY);
+  const buttonRef = useRef(null);
 
     const togglePopUp = () => {
       setPopUpVisible(!isPopUpVisible);
@@ -34,8 +35,40 @@
       };
     }, [isPopUpVisible]);
 
+    // useEffect(() => {
+    //   window.addEventListener("scroll", () => {
+    //     setLastScrollY(window.scrollY);
+    //   });
+    // }, [window.scrollY]);
+
+    // useEffect(() => {
+    //   console.log("last = "+lastScrollY);
+    //   console.log("now = "+window.scrollY);
+    // }, [window.scrollY]);
+
+    useEffect(() => {
+      let lastScrollY = window.scrollY;
+  
+      const handleScroll = () => {
+        const navbar = document.querySelector(".navbar-container");
+        if (window.scrollY > navbar.offsetHeight && lastScrollY < window.scrollY) {
+          navbar.classList.add("nav-hidden");
+        } else {
+          navbar.classList.remove("nav-hidden");
+        }
+  
+        lastScrollY = window.scrollY;
+      };
+  
+      window.addEventListener("scroll", handleScroll);
+  
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, []);
+
     return (
-      <div className="navbar-container">
+      <div className={`navbar-container`}>
         <Link to="/">
           <img className="navbar-home-button" src={home} alt="home button" />
         </Link>
