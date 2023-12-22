@@ -355,7 +355,7 @@
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   .home {
-    background-position: 50% -40px;
+    background-position: 50% 0px;
     background-size: cover;
     justify-items: center;
   }
