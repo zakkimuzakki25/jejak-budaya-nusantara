@@ -52,7 +52,11 @@ function Home() {
   }, [isLoaded2]);
 
   return (
-    <>
+    <div style={{
+      width: "screen.width",
+      height: "screen.width",
+      backgroundColor: "var(--header-bg-color)",
+    }}>
       <Navbar />
       <div className="home">
         <div className="home-explore">
@@ -171,7 +175,7 @@ function Home() {
         />
       )}
       <Footer />
-    </>
+    </div>
   );
 }
 
