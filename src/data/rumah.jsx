@@ -97,24 +97,6 @@ export const listRumahAdat = [
       "https://cdn-u1-gnfi.imgix.net/post/large-rumah-tongkonan-filosofi-dan-simbol-masyarakat-suku-toraja-219436b5ac979aece2074adecc.jpg?fit=crop&crop=faces%2Centropy&lossless=true&auto=compress%2Cformat&w=730&h=486",
   },
   {
-    namaRumahAdat: "Bubungan Lima",
-    daerah: "Kalimantan Barat",
-    foto: BubunganLima,
-    deskripsi:
-      "Rumah adat Bubungan Lima dari Kalimantan Barat memiliki atap yang berbentuk lima tingkat. Bubungan Lima merupakan simbol kebersamaan dan solidaritas dalam masyarakat Dayak. Rumah ini juga sering digunakan untuk kegiatan adat dan ritual suku Dayak.",
-    sumber:
-      "https://cdn-cms.pgimgs.com/static/2021/08/1.-Ciri-Khas-Bentuk-Rumah-Adat-Bengkulu.png",
-  },
-  {
-    namaRumahAdat: "Rumah Panjang",
-    daerah: "Kalimantan Barat",
-    foto: RumahPanjang,
-    deskripsi:
-      "Rumah Panjang adalah rumah adat tradisional suku Dayak di Kalimantan Barat. Rumah ini memiliki bentuk panjang dengan atap yang tinggi. Rumah Panjang digunakan sebagai tempat tinggal bersama bagi beberapa keluarga dan sering dihiasi dengan ukiran dan ornamen khas Dayak.",
-    sumber:
-      "https://img.iproperty.com.my/angel/750x1000-fit/wp-content/uploads/sites/5/2022/08/Alt-Text-Arsitektur-Rumah-Panjang.png",
-  },
-  {
     namaRumahAdat: "Rumah Joglo",
     daerah: "Jawa Tengah",
     foto: RumahJoglo,
