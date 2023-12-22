@@ -52,11 +52,7 @@ function Home() {
   }, [isLoaded2]);
 
   return (
-    <div style={{
-      width: "screen.width",
-      height: "screen.width",
-      backgroundColor: "var(--header-bg-color)",
-    }}>
+    <div className="navbar-parent">
       <Navbar />
       <div className="home">
         <div className="home-explore">

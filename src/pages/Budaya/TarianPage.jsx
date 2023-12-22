@@ -14,7 +14,7 @@ const TarianPage = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <>
+    <div className="navbar-parent">
       <Navbar />
       <div>
         <h1 className="judul-budaya">Daftar Tarian Adat Daerah di Indonesia</h1>
@@ -43,7 +43,7 @@ const TarianPage = () => {
         <UpButton posisi={"left"} />
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
