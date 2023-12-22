@@ -53,7 +53,11 @@ function Home() {
 
   return (
     <>
-      <Navbar />
+      <div style={{
+        backgroundColor: "var(--header-bg-color)",
+      }}>
+        <Navbar />
+      </div>
       <div className="home">
         <div className="home-explore">
           <div className="home-map">
