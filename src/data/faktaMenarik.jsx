@@ -3,6 +3,7 @@ import rendangImage from "../assets/image/faktaRendang.svg";
 import wayangKulitImage from "../assets/image/faktaWayang-Kulit.svg";
 import batikImage from "../assets/image/faktaBatik.svg";
 import angklungImage from "../assets/image/faktaAngklung.svg";
+import faktaReog from "../assets/image/fakta-Reog.svg";
 
 export const faktaMenarik = [
   {
@@ -40,4 +41,12 @@ export const faktaMenarik = [
       "Angklung, alat musik tradisional Sunda, telah diakui oleh UNESCO sebagai Warisan Kemanusiaan untuk Budaya Lisan dan Takbenda. Angklung juga sering tampil dalam berbagai acara internasional, membawa pesona budaya Indonesia.",
     sumber: "https://cdn-u1-gnfi.imgix.net/post/large-foto-6-2-62b6f41e169c3302bf2cd60c9c7bf74c.jpg?fit=crop&crop=faces%2Centropy&lossless=true&auto=compress%2Cformat&w=730&h=486",
   },
+  {
+    judul: "Reog Ponorogo: Tarian Tradisional yang Menakjubkan di Mata Dunia",
+    src: faktaReog,
+    deskripsi:
+      "Reog Ponorogo, tarian tradisional Jawa Timur, meraih apresiasi internasional pada 'Kompetisi Kostum Nasional' Miss Grand International 2022 di Bogor. Kostumnya menjadi sorotan, membawa pesona budaya Indonesia ke mata dunia.",
+    sumber: "https://cdn1-production-images-kly.akamaized.net/KZSyLdkjNk0J4s1sv4Lc58X8tq0=/640x853/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4198807/original/034059300_1666323726-FHR_9144.jpg",
+  },
+
 ];
