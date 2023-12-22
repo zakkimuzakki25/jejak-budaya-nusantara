@@ -11,7 +11,7 @@ const FaktaPage = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <>
+    <div className="navbar-parent">
       <Navbar />
       <div>
         <h1 className="judul-budaya">Daftar Fakta Menarik Budaya Indonesia</h1>
@@ -31,7 +31,7 @@ const FaktaPage = () => {
         <UpButton posisi={"right"} />
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

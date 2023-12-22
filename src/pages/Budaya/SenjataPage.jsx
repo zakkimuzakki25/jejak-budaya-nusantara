@@ -14,7 +14,7 @@ const SenjataPage = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <>
+    <div className="navbar-parent">
       <Navbar />
       <div>
         <h1 className="judul-budaya">
@@ -45,7 +45,7 @@ const SenjataPage = () => {
         <UpButton posisi={"left"} />
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

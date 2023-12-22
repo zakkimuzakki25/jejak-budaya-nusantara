@@ -14,7 +14,7 @@ const LaguPage = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <>
+    <div className="navbar-parent">
       <Navbar />
       <div>
         <h1 className="judul-budaya">Daftar Lagu Khas Daerah di Indonesia</h1>
@@ -43,7 +43,7 @@ const LaguPage = () => {
         <UpButton posisi={"left"} />
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
