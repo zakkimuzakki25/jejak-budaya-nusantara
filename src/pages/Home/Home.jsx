@@ -52,12 +52,12 @@ function Home() {
   }, [isLoaded2]);
 
   return (
-    <>
-      <div style={{
-        backgroundColor: "var(--header-bg-color)",
-      }}>
-        <Navbar />
-      </div>
+    <div style={{
+      width: "screen.width",
+      height: "screen.width",
+      backgroundColor: "var(--header-bg-color)",
+    }}>
+      <Navbar />
       <div className="home">
         <div className="home-explore">
           <div className="home-map">
@@ -175,7 +175,7 @@ function Home() {
         />
       )}
       <Footer />
-    </>
+    </div>
   );
 }
 

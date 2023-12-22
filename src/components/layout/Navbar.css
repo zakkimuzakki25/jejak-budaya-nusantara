@@ -10,6 +10,10 @@
   --footer-bg-color: #d39619;
 }
 
+.navbar-parent .navbar-container {
+  width: 100%;
+}
+
 .navbar-container {
   width: screen;
   height: fit-content;
